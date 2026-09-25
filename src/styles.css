@@ -303,8 +303,9 @@
 
 .epexe-anchor {
   display: inline-flex;
-  height: 0.82em;
-  margin: 0 0.06em;
+  height: 0.95em;
+  margin: 0 0.04em;
+  align-self: center;
 }
 
 .epexe-anchor-svg {
@@ -348,8 +349,9 @@
 
 .epexe-nav-anchor {
   display: inline-flex;
-  height: 0.8em;
-  margin: 0 0.05em;
+  height: 0.95em;
+  margin: 0 0.04em;
+  align-self: center;
   transform-origin: 50% 12%;
   animation: epexe-sway 3.6s ease-in-out infinite;
 }
