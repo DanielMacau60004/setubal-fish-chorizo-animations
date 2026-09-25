@@ -46,6 +46,11 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
   --color-ring-offset-background: var(--background);
+  --color-deep: var(--deep);
+  --color-deep-2: var(--deep-2);
+  --color-marine: var(--marine);
+  --color-marine-deep: var(--marine-deep);
+  --color-foam: var(--foam);
   --color-chart-1: var(--chart-1);
   --color-chart-2: var(--chart-2);
   --color-chart-3: var(--chart-3);
@@ -95,6 +100,12 @@
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
+  --deep: oklch(0.14 0.02 265);
+  --deep-2: oklch(0.18 0.025 265);
+  --marine: oklch(0.55 0.19 262);
+  --marine-deep: oklch(0.4 0.16 262);
+  --foam: oklch(0.97 0.01 240);
+  --font-display: "Bevan", Georgia, serif;
 }
 
 .dark {
