@@ -6,7 +6,14 @@ export function AnchorMark({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 100 112" className={className} fill="none" aria-hidden="true">
       <defs>
-        <linearGradient id={gradientId} x1="0" y1="0" x2="1" y2="1">
+        <linearGradient
+          id={gradientId}
+          gradientUnits="userSpaceOnUse"
+          x1="0"
+          y1="0"
+          x2="100"
+          y2="112"
+        >
           <stop offset="0%" stopColor="#ffffff" />
           <stop offset="55%" stopColor="#e3ebf7" />
           <stop offset="100%" stopColor="#a5badc" />
