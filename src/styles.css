@@ -51,6 +51,7 @@
   --color-marine: var(--marine);
   --color-marine-deep: var(--marine-deep);
   --color-foam: var(--foam);
+  --font-display: var(--font-bevan);
   --color-chart-1: var(--chart-1);
   --color-chart-2: var(--chart-2);
   --color-chart-3: var(--chart-3);
@@ -105,7 +106,7 @@
   --marine: oklch(0.55 0.19 262);
   --marine-deep: oklch(0.4 0.16 262);
   --foam: oklch(0.97 0.01 240);
-  --font-display: "Bevan", Georgia, serif;
+  --font-bevan: "Bevan", Georgia, serif;
 }
 
 .dark {
