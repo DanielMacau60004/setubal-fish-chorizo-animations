@@ -26,7 +26,7 @@ function Contact() {
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const f = new FormData(e.currentTarget);
-    const items = PRODUCTS.filter((p) => qty[p.slug] > 0).map((p) => `- ${p.name}: ${qty[p.slug]}`);
+    const items = PRODUCTS.filter((p) => (qty[p.slug] ?? 0) > 0).map((p) => `- ${p.name}: ${qty[p.slug]}`);
     const body = [
       `Nome: ${f.get("name")}`,
       `Email: ${f.get("email")}`,
