@@ -7,7 +7,9 @@ import { AnchorMark } from "./AnchorMark";
 export function NavbarLogo({ className = "" }: { className?: string }) {
   return (
     <span className={`epexe-nav ${className}`} role="img" aria-label="ÉPÊXE">
-      <span className="epexe-nav-bubble" aria-hidden="true" />
+      <span className="epexe-nav-bubbles" aria-hidden="true">
+        {Array.from({ length: 6 }, (_, i) => <span key={i} className="epexe-nav-bubble" />)}
+      </span>
       <span className="epexe-nav-text">
         <span>É</span>
         <span className="epexe-nav-anchor">

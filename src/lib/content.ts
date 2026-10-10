@@ -1,9 +1,36 @@
-import atum from "@/assets/prod-atum.jpg";
-import choco from "@/assets/prod-choco.jpg";
-import polvo from "@/assets/prod-polvo.jpg";
-import arroz from "@/assets/dish-arroz.jpg";
-import tosta from "@/assets/dish-tosta.jpg";
-import assado from "@/assets/dish-assado.jpg";
+import { z } from "zod";
+
+const images = import.meta.glob<string>("../content/imagens/*.{jpg,jpeg,png,webp,avif,svg}", {
+  eager: true,
+  query: "?url",
+  import: "default",
+});
+const pointers = import.meta.glob<{ url: string }>("../content/imagens/*.asset.json", {
+  eager: true,
+  import: "default",
+});
+
+function resolveImage(filename: string): string {
+  const path = `../content/imagens/${filename}`;
+  const url = images[path] ?? pointers[`${path}.asset.json`]?.url;
+  if (!url) throw new Error(`Imagem não encontrada em src/content/imagens: ${filename}`);
+  return url;
+}
+
+const baseSchema = z.object({
+  ordem: z.number(),
+  slug: z.string().min(1),
+  nome: z.string().min(1),
+  imagens: z.array(z.string().min(1)).min(1),
+});
+const productSchema = baseSchema.extend({
+  resumo: z.string(),
+  descricao: z.array(z.string()),
+});
+const dishSchema = baseSchema.extend({ descricao: z.string() });
+
+const productFiles = import.meta.glob("../content/produtos/*.json", { eager: true, import: "default" });
+const dishFiles = import.meta.glob("../content/pratos/*.json", { eager: true, import: "default" });
 
 export type Product = {
   slug: string;
@@ -13,53 +40,12 @@ export type Product = {
   images: string[];
 };
 
-export const PRODUCTS: Product[] = [
-  {
-    slug: "atum",
-    name: "Chouriço de Atum",
-    short: "Atum fresco, azeite e um toque de pimentão. O nosso clássico.",
-    long: [
-      "Feito com lombos de atum fresco comprados na lota de Setúbal, temperado com alho, pimentão doce e azeite virgem extra.",
-      "Fumado lentamente em lenha de azinho, tem uma textura firme e um sabor suave a mar. Ideal para petiscar, grelhar ou juntar a um arroz.",
-    ],
-    images: [atum, tosta, arroz],
-  },
-  {
-    slug: "choco",
-    name: "Chouriço de Choco",
-    short: "Choco de Setúbal com a sua tinta. Intenso, escuro e único.",
-    long: [
-      "Uma homenagem ao choco frito de Setúbal: choco fresco picado à mão e envolvido na sua própria tinta, com limão e salsa.",
-      "Sabor profundo e marinho, perfeito para grelhar e servir com uma gota de limão.",
-    ],
-    images: [choco, assado, tosta],
-  },
-  {
-    slug: "polvo",
-    name: "Chouriço de Polvo",
-    short: "Polvo tenro com colorau. Para quem gosta de sabores fortes.",
-    long: [
-      "Polvo cozido lentamente e cortado em pedaços generosos, temperado com colorau, alho e louro.",
-      "Um chouriço com caráter, que brilha numa tábua de petiscos com azeitonas e pão alentejano.",
-    ],
-    images: [polvo, assado, arroz],
-  },
-];
+export const PRODUCTS: Product[] = Object.values(productFiles)
+  .map((value) => productSchema.parse(value))
+  .sort((a, b) => a.ordem - b.ordem)
+  .map((p) => ({ slug: p.slug, name: p.nome, short: p.resumo, long: p.descricao, images: p.imagens.map(resolveImage) }));
 
-export const DISHES = [
-  {
-    name: "Arroz de Marisco com Chouriço de Atum",
-    image: arroz,
-    text: "Um arroz malandrinho com camarão, amêijoa e rodelas de chouriço de atum que dão fumo e profundidade ao caldo.",
-  },
-  {
-    name: "Tostas de Chouriço com Tomate",
-    image: tosta,
-    text: "Pão rústico tostado, tomate picado, azeite e fatias grelhadas de chouriço. Petisco rápido para partilhar.",
-  },
-  {
-    name: "Chouriço Assado no Barro",
-    image: assado,
-    text: "O clássico das tascas, à moda do mar: chouriço de choco ou polvo flamejado em aguardente no assador de barro.",
-  },
-];
+export const DISHES = Object.values(dishFiles)
+  .map((value) => dishSchema.parse(value))
+  .sort((a, b) => a.ordem - b.ordem)
+  .map((d) => ({ slug: d.slug, name: d.nome, text: d.descricao, images: d.imagens.map(resolveImage), image: resolveImage(d.imagens[0]) }));

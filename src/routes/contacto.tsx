@@ -1,6 +1,6 @@
-import { useState, type FormEvent } from "react";
+import { type FormEvent } from "react";
 import { createFileRoute } from "@tanstack/react-router";
-import { PRODUCTS } from "@/lib/content";
+import { Button } from "@/components/ui/button";
 
 const COMPANY_EMAIL = "encomendas@epexe.pt";
 
@@ -21,18 +21,13 @@ export const Route = createFileRoute("/contacto")({
 const field = "w-full rounded-xl border border-foam/15 bg-deep px-4 py-2.5 text-foam placeholder:text-foam/40 focus:border-marine focus:outline-none";
 
 function Contact() {
-  const [qty, setQty] = useState<Record<string, number>>({});
-
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const f = new FormData(e.currentTarget);
-    const items = PRODUCTS.filter((p) => (qty[p.slug] ?? 0) > 0).map((p) => `- ${p.name}: ${qty[p.slug]}`);
     const body = [
       `Nome: ${f.get("name")}`,
       `Email: ${f.get("email")}`,
       `Telefone: ${f.get("phone") || "-"}`,
-      "",
-      items.length ? `Encomenda:\n${items.join("\n")}` : "",
       "",
       `${f.get("message") || ""}`,
     ].join("\n");
@@ -49,28 +44,10 @@ function Contact() {
           <input name="email" type="email" required maxLength={255} placeholder="Email" className={field} />
         </div>
         <input name="phone" maxLength={30} placeholder="Telefone (opcional)" className={field} />
-        <div>
-          <p className="mb-2 text-sm font-medium text-foam">Produtos</p>
-          <div className="space-y-2">
-            {PRODUCTS.map((p) => (
-              <label key={p.slug} className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 text-sm text-foam/80">
-                <span className="min-w-0">{p.name}</span>
-                <input
-                  type="number"
-                  min={0}
-                  max={99}
-                  value={qty[p.slug] ?? 0}
-                  onChange={(e) => setQty({ ...qty, [p.slug]: Math.max(0, Number(e.target.value)) })}
-                  className="w-20 shrink-0 rounded-xl border border-foam/15 bg-deep px-3 py-2.5 text-foam focus:border-marine focus:outline-none sm:w-24"
-                />
-              </label>
-            ))}
-          </div>
-        </div>
         <textarea name="message" rows={4} maxLength={1000} placeholder="Mensagem (morada de entrega, dúvidas...)" className={field} />
-        <button type="submit" className="rounded-full bg-marine px-6 py-3 text-sm font-medium text-on-marine hover:bg-marine-deep">
+        <Button type="submit" className="h-auto rounded-full bg-marine px-6 py-3 text-sm font-medium text-on-marine hover:bg-marine-deep">
           Enviar email
-        </button>
+        </Button>
       </form>
       <p className="mt-6 text-sm text-foam/60">Ou escreva-nos diretamente para {COMPANY_EMAIL}</p>
     </main>

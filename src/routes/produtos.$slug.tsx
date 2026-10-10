@@ -63,9 +63,6 @@ function ProductPage() {
           <div className="mt-6 space-y-4 text-foam/70">
             {product.long.map((t, i) => <p key={i}>{t}</p>)}
           </div>
-          <Link to="/contacto" className="mt-8 inline-block rounded-full bg-marine px-6 py-3 text-sm font-medium text-on-marine hover:bg-marine-deep">
-            Encomendar
-          </Link>
         </div>
       </div>
     </main>
