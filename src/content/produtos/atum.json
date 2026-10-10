@@ -1,0 +1,15 @@
+{
+  "ordem": 1,
+  "slug": "atum",
+  "nome": "Chouriço de Atum",
+  "resumo": "Atum fresco, azeite e um toque de pimentão. O nosso clássico.",
+  "descricao": [
+    "Feito com lombos de atum fresco comprados na lota de Setúbal, temperado com alho, pimentão doce e azeite virgem extra.",
+    "Fumado lentamente em lenha de azinho, tem uma textura firme e um sabor suave a mar. Ideal para petiscar, grelhar ou juntar a um arroz."
+  ],
+  "imagens": [
+    "prod-atum.jpg",
+    "dish-tosta.jpg",
+    "dish-arroz.jpg"
+  ]
+}
