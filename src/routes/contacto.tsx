@@ -53,15 +53,15 @@ function Contact() {
           <p className="mb-2 text-sm font-medium text-foam">Produtos</p>
           <div className="space-y-2">
             {PRODUCTS.map((p) => (
-              <label key={p.slug} className="flex items-center justify-between gap-4 text-sm text-foam/80">
-                {p.name}
+              <label key={p.slug} className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 text-sm text-foam/80">
+                <span className="min-w-0">{p.name}</span>
                 <input
                   type="number"
                   min={0}
                   max={99}
                   value={qty[p.slug] ?? 0}
                   onChange={(e) => setQty({ ...qty, [p.slug]: Math.max(0, Number(e.target.value)) })}
-                  className={`${field} w-24`}
+                  className="w-20 shrink-0 rounded-xl border border-foam/15 bg-deep px-3 py-2.5 text-foam focus:border-marine focus:outline-none sm:w-24"
                 />
               </label>
             ))}

@@ -13,7 +13,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
       try { saved = localStorage.getItem("epexe-theme"); } catch { /* Storage may be unavailable. */ }
       const next = resolveTheme(saved, system.matches);
       document.documentElement.classList.toggle("dark", next === "dark");
-      document.documentElement.dataset.theme = next;
+      document.documentElement.dataset['theme'] = next;
       setTheme(next);
     };
     sync();
@@ -29,7 +29,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     const next = theme === "dark" ? "light" : "dark";
     try { localStorage.setItem("epexe-theme", next); } catch { /* Still apply for this visit. */ }
     document.documentElement.classList.toggle("dark", next === "dark");
-    document.documentElement.dataset.theme = next;
+    document.documentElement.dataset['theme'] = next;
     setTheme(next);
   };
 
