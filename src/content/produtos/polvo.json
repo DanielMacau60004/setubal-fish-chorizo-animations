@@ -1,0 +1,15 @@
+{
+  "ordem": 3,
+  "slug": "polvo",
+  "nome": "Chouriço de Polvo",
+  "resumo": "Polvo tenro com colorau. Para quem gosta de sabores fortes.",
+  "descricao": [
+    "Polvo cozido lentamente e cortado em pedaços generosos, temperado com colorau, alho e louro.",
+    "Um chouriço com caráter, que brilha numa tábua de petiscos com azeitonas e pão alentejano."
+  ],
+  "imagens": [
+    "prod-polvo.jpg",
+    "dish-assado.jpg",
+    "dish-arroz.jpg"
+  ]
+}

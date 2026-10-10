@@ -1,0 +1,9 @@
+{
+  "ordem": 1,
+  "slug": "arroz",
+  "nome": "Arroz de Marisco com Chouriço de Atum",
+  "descricao": "Um arroz malandrinho com camarão, amêijoa e rodelas de chouriço de atum que dão fumo e profundidade ao caldo.",
+  "imagens": [
+    "dish-arroz.jpg"
+  ]
+}

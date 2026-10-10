@@ -1,0 +1,15 @@
+{
+  "ordem": 2,
+  "slug": "choco",
+  "nome": "Chouriço de Choco",
+  "resumo": "Choco de Setúbal com a sua tinta. Intenso, escuro e único.",
+  "descricao": [
+    "Uma homenagem ao choco frito de Setúbal: choco fresco picado à mão e envolvido na sua própria tinta, com limão e salsa.",
+    "Sabor profundo e marinho, perfeito para grelhar e servir com uma gota de limão."
+  ],
+  "imagens": [
+    "prod-choco.jpg",
+    "dish-assado.jpg",
+    "dish-tosta.jpg"
+  ]
+}

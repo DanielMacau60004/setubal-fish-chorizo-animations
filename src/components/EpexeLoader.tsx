@@ -4,14 +4,22 @@ import { AnchorMark } from "./AnchorMark";
 const TRAILING_LETTERS = ["P", "Ê", "X", "E"];
 
 const BUBBLES = [
-  { left: "8%", size: 8, delay: 0, dur: 3.4 },
-  { left: "20%", size: 5, delay: 0.9, dur: 2.9 },
-  { left: "32%", size: 11, delay: 0.4, dur: 3.8 },
-  { left: "47%", size: 6, delay: 1.4, dur: 3.1 },
-  { left: "58%", size: 9, delay: 0.2, dur: 3.6 },
-  { left: "70%", size: 5, delay: 1.1, dur: 2.8 },
-  { left: "82%", size: 10, delay: 0.6, dur: 4.0 },
-  { left: "92%", size: 6, delay: 1.7, dur: 3.3 },
+  { left: "4%", size: 16, delay: -0.3, dur: 1.7 },
+  { left: "10%", size: 9, delay: -1.1, dur: 1.4 },
+  { left: "16%", size: 22, delay: -0.7, dur: 2.0 },
+  { left: "22%", size: 12, delay: -1.3, dur: 1.6 },
+  { left: "28%", size: 18, delay: -0.5, dur: 1.8 },
+  { left: "34%", size: 10, delay: -1.5, dur: 1.7 },
+  { left: "40%", size: 24, delay: -0.9, dur: 2.1 },
+  { left: "46%", size: 14, delay: -0.2, dur: 1.5 },
+  { left: "52%", size: 9, delay: -1.2, dur: 1.4 },
+  { left: "58%", size: 20, delay: -0.6, dur: 1.9 },
+  { left: "64%", size: 12, delay: -1.4, dur: 1.6 },
+  { left: "70%", size: 25, delay: -0.8, dur: 2.0 },
+  { left: "76%", size: 10, delay: -0.4, dur: 1.5 },
+  { left: "82%", size: 17, delay: -1.6, dur: 1.8 },
+  { left: "88%", size: 13, delay: -1.0, dur: 1.7 },
+  { left: "94%", size: 21, delay: -0.5, dur: 1.9 },
 ];
 
 type EpexeLoaderProps = {

@@ -1,0 +1,9 @@
+{
+  "ordem": 3,
+  "slug": "assado",
+  "nome": "Chouriço Assado no Barro",
+  "descricao": "O clássico das tascas, à moda do mar: chouriço de choco ou polvo flamejado em aguardente no assador de barro.",
+  "imagens": [
+    "dish-assado.jpg"
+  ]
+}
