@@ -263,7 +263,7 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: var(--night);
+  background: var(--deep);
 }
 
 .epexe-loader--fullscreen {
@@ -282,7 +282,7 @@
   position: absolute;
   bottom: -14px;
   border-radius: 9999px;
-  border: 1.5px solid color-mix(in oklab, var(--night-foam) 50%, transparent);
+  border: 1.5px solid color-mix(in oklab, var(--foam) 50%, transparent);
   background: radial-gradient(
     circle at 30% 30%,
     color-mix(in oklab, var(--color-marine) 45%, transparent),
@@ -297,7 +297,8 @@
   align-items: center;
   font-family: var(--font-display);
   color: var(--color-marine);
-  font-size: clamp(2.6rem, 11vw, 6.5rem);
+  font-size: 6.5rem;
+  max-width: 100%;
   line-height: 1.25;
   padding-top: 0.12em;
   text-shadow: 0 4px 28px color-mix(in oklab, var(--color-marine) 45%, transparent);
@@ -332,9 +333,11 @@
 .epexe-tagline {
   margin: 0;
   font-size: 0.75rem;
-  letter-spacing: 0.35em;
+  letter-spacing: 0;
+  padding-inline: 1rem;
+  text-align: center;
   text-transform: uppercase;
-  color: color-mix(in oklab, var(--night-foam) 75%, transparent);
+  color: color-mix(in oklab, var(--foam) 75%, transparent);
   opacity: 0;
   animation: epexe-fade-up 0.6s ease-out 1.05s forwards;
 }
@@ -379,8 +382,23 @@
   animation: epexe-bubble-rise 4.5s ease-out 1.8s infinite;
 }
 
-html:not(.dark) .epexe-nav-anchor .epexe-anchor-svg {
+html:not(.dark) .epexe-nav-anchor .epexe-anchor-svg,
+html:not(.dark) .epexe-loader .epexe-anchor-svg {
   filter: brightness(0.45) saturate(1.6);
+}
+
+html { color-scheme: light; }
+html.dark { color-scheme: dark; }
+
+main { min-width: 0; overflow-wrap: anywhere; }
+
+@media (max-width: 767px) {
+  .epexe-word { font-size: 3.5rem; }
+  main h1 { font-size: 2rem; }
+}
+
+@media (max-width: 359px) {
+  .epexe-word { font-size: 2.6rem; }
 }
 
 /* --- Reduced motion --- */

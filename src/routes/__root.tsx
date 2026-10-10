@@ -15,6 +15,7 @@ import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { EpexeLoader } from "@/components/EpexeLoader";
 import { SiteHeader, SiteFooter } from "@/components/SiteHeader";
+import { ThemeProvider } from "@/components/ThemeProvider";
 
 function NotFoundComponent() {
   return (
@@ -113,6 +114,7 @@ function RootShell({ children }: { children: ReactNode }) {
   return (
     <html lang="pt">
       <head>
+        <script dangerouslySetInnerHTML={{ __html: `(function(){var saved=null;try{saved=localStorage.getItem('epexe-theme')}catch(e){}var dark=saved==='dark'||(saved!=='light'&&window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.classList.toggle('dark',dark);document.documentElement.dataset.theme=dark?'dark':'light'})()` }} />
         <HeadContent />
       </head>
       <body>
@@ -134,12 +136,14 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
+      <ThemeProvider>
       {intro && <EpexeLoader fullscreen onComplete={finishIntro} />}
       <div className="min-h-screen bg-deep text-foam">
         <SiteHeader />
         <Outlet />
         <SiteFooter />
       </div>
+      </ThemeProvider>
     </QueryClientProvider>
   );
 }

@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Theme state is shared through ThemeProvider, with an early browser script applying the saved or system theme before paint; this keeps the intro and navigation consistent.
+- The site header switches to a collapsible navigation below the desktop breakpoint; this prevents narrow-screen navigation overflow.

@@ -1,0 +1,3 @@
+- [x] Match the intro animation to the saved or system theme.
+- [x] Replace narrow-screen navigation with a collapsible menu.
+- [ ] Verify theme behavior and small-screen navigation across the website.
