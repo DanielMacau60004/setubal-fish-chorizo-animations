@@ -5,3 +5,4 @@
 - [ ] Remove product ordering links and contact quantity selection.
 - [ ] Increase bubble visibility, density and speed in both brand animations.
 - [ ] Verify content, contact and animations in the browser.
+- [ ] Add an elegant Setúbal-inspired photographic background while preserving readability in both themes.
