@@ -16,7 +16,7 @@ import { reportLovableError } from "../lib/lovable-error-reporting";
 import { EpexeLoader } from "@/components/EpexeLoader";
 import { SiteHeader, SiteFooter } from "@/components/SiteHeader";
 import { ThemeProvider } from "@/components/ThemeProvider";
-import setubalDocks from "@/assets/setubal-docas.jpg";
+import setubalDocks from "@/assets/setubal-fontainhas.jpg.asset.json";
 
 function NotFoundComponent() {
   return (
@@ -141,7 +141,7 @@ function RootComponent() {
       {intro && <EpexeLoader fullscreen onComplete={finishIntro} />}
       <div className="site-shell min-h-screen text-foam">
         <div className="site-backdrop" aria-hidden="true">
-          <img src={setubalDocks} alt="" width={1920} height={1024} />
+          <img src={setubalDocks.url} alt="" width={3056} height={2038} />
         </div>
         <SiteHeader />
         <Outlet />
