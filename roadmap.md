@@ -7,3 +7,4 @@
 - [x] Verify content, contact and animations in the browser.
 - [x] Add an elegant Setúbal-inspired photographic background while preserving readability in both themes.
 - [x] Replace the generated coastal background with a verified real, licensed photograph of Setúbal.
+- [ ] Replace the product catalogue with salmon, cuttlefish and hake using the four supplied photographs, and verify the galleries.
