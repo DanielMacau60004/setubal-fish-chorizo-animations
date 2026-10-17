@@ -1,7 +1,8 @@
 - [x] Match the intro animation to the saved or system theme.
 - [x] Replace narrow-screen navigation with a collapsible menu.
 - [x] Verify theme behavior and small-screen navigation across the website.
-- [ ] Organize product and dish content as individual JSON files with a shared image folder and editing guide.
-- [ ] Remove product ordering links and contact quantity selection.
-- [ ] Increase bubble visibility, density and speed in both brand animations.
-- [ ] Verify content, contact and animations in the browser.
+- [x] Organize product and dish content as individual JSON files with a shared image folder and editing guide.
+- [x] Remove product ordering links and contact quantity selection.
+- [x] Increase bubble visibility, density and speed in both brand animations.
+- [x] Verify content, contact and animations in the browser.
+- [x] Add an elegant Setúbal-inspired photographic background while preserving readability in both themes.

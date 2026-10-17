@@ -21,7 +21,7 @@ const baseSchema = z.object({
   ordem: z.number(),
   slug: z.string().min(1),
   nome: z.string().min(1),
-  imagens: z.array(z.string().min(1)).min(1),
+  imagens: z.array(z.string().min(1)).nonempty(),
 });
 const productSchema = baseSchema.extend({
   resumo: z.string(),

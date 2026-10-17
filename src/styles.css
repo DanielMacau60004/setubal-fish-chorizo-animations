@@ -111,6 +111,9 @@
   --night: oklch(0.14 0.02 265);
   --night-foam: oklch(0.97 0.01 240);
   --font-bevan: "Bevan", Georgia, serif;
+  --coastal-veil-top: color-mix(in oklab, var(--deep) 74%, transparent);
+  --coastal-veil-middle: color-mix(in oklab, var(--deep) 86%, transparent);
+  --coastal-veil-bottom: color-mix(in oklab, var(--deep) 97%, transparent);
 }
 
 .dark {
@@ -406,6 +409,16 @@ html { color-scheme: light; }
 html.dark { color-scheme: dark; }
 
 main { min-width: 0; overflow-wrap: anywhere; }
+
+.site-shell { position: relative; isolation: isolate; background: var(--deep); }
+.site-backdrop { position: fixed; inset: 0; z-index: -1; pointer-events: none; }
+.site-backdrop img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+.site-backdrop::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, var(--coastal-veil-top), var(--coastal-veil-middle) 38%, var(--coastal-veil-bottom) 78%);
+}
 
 @media (max-width: 767px) {
   .epexe-word { font-size: 3.5rem; }
