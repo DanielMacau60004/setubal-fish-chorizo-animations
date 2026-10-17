@@ -6,3 +6,4 @@
 - [x] Increase bubble visibility, density and speed in both brand animations.
 - [x] Verify content, contact and animations in the browser.
 - [x] Add an elegant Setúbal-inspired photographic background while preserving readability in both themes.
+- [ ] Replace the generated coastal background with a verified real, licensed photograph of Setúbal.
