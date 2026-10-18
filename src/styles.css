@@ -2,6 +2,12 @@
 @source "../src";
 @import "tw-animate-css";
 
+@font-face {
+  font-family: "Distillery Strong";
+  src: url("./assets/fonts/DistilleryStrong.ttf") format("truetype");
+  font-display: swap;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 /*
@@ -52,7 +58,7 @@
   --color-marine-deep: var(--marine-deep);
   --color-foam: var(--foam);
   --color-on-marine: var(--on-marine);
-  --font-display: var(--font-bevan);
+  --font-display: var(--font-brand);
   --color-chart-1: var(--chart-1);
   --color-chart-2: var(--chart-2);
   --color-chart-3: var(--chart-3);
@@ -110,7 +116,7 @@
   --on-marine: oklch(0.98 0.005 240);
   --night: oklch(0.14 0.02 265);
   --night-foam: oklch(0.97 0.01 240);
-  --font-bevan: "Bevan", Georgia, serif;
+  --font-brand: "Distillery Strong", Georgia, serif;
   --coastal-veil-top: color-mix(in oklab, var(--deep) 74%, transparent);
   --coastal-veil-middle: color-mix(in oklab, var(--deep) 86%, transparent);
   --coastal-veil-bottom: color-mix(in oklab, var(--deep) 97%, transparent);
