@@ -1,15 +1,13 @@
 {
   "ordem": 3,
-  "slug": "polvo",
-  "nome": "Chouriço de Polvo",
-  "resumo": "Polvo tenro com colorau. Para quem gosta de sabores fortes.",
+  "slug": "pescada",
+  "nome": "Chouriço de Pescada",
+  "resumo": "A pescada na coleção de chouriços de peixe da ÉPÊXE.",
   "descricao": [
-    "Polvo cozido lentamente e cortado em pedaços generosos, temperado com colorau, alho e louro.",
-    "Um chouriço com caráter, que brilha numa tábua de petiscos com azeitonas e pão alentejano."
+    "O Chouriço de Pescada completa a coleção de chouriços de peixe da ÉPÊXE, ao lado das variedades de salmão e choco.",
+    "Conheça o produto na fotografia, apresentado num assador de barro."
   ],
   "imagens": [
-    "prod-polvo.jpg",
-    "dish-assado.jpg",
-    "dish-arroz.jpg"
+    "chourico-pescada.jpeg"
   ]
 }

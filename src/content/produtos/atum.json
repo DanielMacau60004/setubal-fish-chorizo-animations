@@ -1,15 +1,14 @@
 {
   "ordem": 1,
-  "slug": "atum",
-  "nome": "Chouriço de Atum",
-  "resumo": "Atum fresco, azeite e um toque de pimentão. O nosso clássico.",
+  "slug": "salmao",
+  "nome": "Chouriço de Salmão",
+  "resumo": "O salmão numa nova interpretação do chouriço de peixe ÉPÊXE.",
   "descricao": [
-    "Feito com lombos de atum fresco comprados na lota de Setúbal, temperado com alho, pimentão doce e azeite virgem extra.",
-    "Fumado lentamente em lenha de azinho, tem uma textura firme e um sabor suave a mar. Ideal para petiscar, grelhar ou juntar a um arroz."
+    "O Chouriço de Salmão integra a coleção de chouriços de peixe da ÉPÊXE, uma empresa de Setúbal.",
+    "Nas fotografias, pode conhecer o produto e vê-lo no assador de barro."
   ],
   "imagens": [
-    "prod-atum.jpg",
-    "dish-tosta.jpg",
-    "dish-arroz.jpg"
+    "chourico-salmao.jpeg",
+    "chourico-salmao-assador.jpeg"
   ]
 }

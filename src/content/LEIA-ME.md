@@ -37,4 +37,4 @@ Imagens carregadas através do Lovable podem ter um ficheiro de referência term
 
 Duplique um JSON da pasta correspondente, dê um novo nome ao ficheiro e preencha os campos. Escolha um `slug` único, sem espaços nem acentos, e coloque as fotografias em `imagens/`. O novo conteúdo é incluído automaticamente, sem alterar código.
 
-As fotografias e descrições atuais são exemplos previamente gerados; substitua-os pelos conteúdos reais da empresa.
+Os produtos são salmão, choco e pescada. As fotografias dos produtos foram fornecidas pela empresa; o salmão tem duas fotografias. Os textos dos produtos são provisórios, sem informação técnica sobre ingredientes ou preparação. As fotografias dos pratos continuam a ser exemplos gerados e devem ser substituídas por fotografias reais.

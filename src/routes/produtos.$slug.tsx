@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { PRODUCTS } from "@/lib/content";
+import { Button } from "@/components/ui/button";
 
 export const Route = createFileRoute("/produtos/$slug")({
   loader: ({ params }) => {
@@ -44,18 +45,21 @@ function ProductPage() {
       <Link to="/produtos" className="text-sm text-foam/60 hover:text-foam">← Todos os produtos</Link>
       <div className="mt-6 grid gap-10 md:grid-cols-2">
         <div>
-          <img src={product.images[active]} alt={product.name} width={1024} height={768} className="aspect-[4/3] w-full rounded-2xl object-cover" />
-          <div className="mt-3 grid grid-cols-3 gap-3">
+          <img src={product.images[active] ?? product.images[0]} alt={product.name} width={1153} height={768} className="aspect-[3/2] w-full rounded-2xl object-cover" />
+          {product.images.length > 1 && <div className="mt-3 grid grid-cols-3 gap-3">
             {product.images.map((img, i) => (
-              <button
+              <Button
                 key={i}
+                variant="ghost"
+                aria-label={`Ver fotografia ${i + 1} de ${product.name}`}
+                aria-pressed={i === active}
                 onClick={() => setActive(i)}
-                className={`overflow-hidden rounded-xl border-2 ${i === active ? "border-marine" : "border-transparent opacity-70 hover:opacity-100"}`}
+                className={`h-auto overflow-hidden rounded-xl border-2 p-0 ${i === active ? "border-marine" : "border-transparent opacity-70 hover:opacity-100"}`}
               >
-                <img src={img} alt={`${product.name} foto ${i + 1}`} width={1024} height={768} loading="lazy" className="aspect-[4/3] w-full object-cover" />
-              </button>
+                <img src={img} alt={`${product.name} foto ${i + 1}`} width={1153} height={768} loading="lazy" className="aspect-[3/2] w-full object-cover" />
+              </Button>
             ))}
-          </div>
+          </div>}
         </div>
         <div>
           <h1 className="font-display text-4xl text-foam">{product.name}</h1>
