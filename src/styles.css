@@ -58,7 +58,7 @@
   --color-marine-deep: var(--marine-deep);
   --color-foam: var(--foam);
   --color-on-marine: var(--on-marine);
-  --font-display: var(--font-brand);
+  --font-display: "Bevan", Georgia, serif;
   --color-chart-1: var(--chart-1);
   --color-chart-2: var(--chart-2);
   --color-chart-3: var(--chart-3);
@@ -305,7 +305,7 @@
 .epexe-word {
   display: flex;
   align-items: center;
-  font-family: var(--font-display);
+  font-family: var(--font-brand);
   color: var(--color-marine);
   font-size: 6.5rem;
   max-width: 100%;
@@ -363,7 +363,7 @@
 .epexe-nav-text {
   display: inline-flex;
   align-items: center;
-  font-family: var(--font-display);
+  font-family: var(--font-brand);
   color: var(--color-marine);
   font-size: 1.35rem;
   line-height: 1.3;
