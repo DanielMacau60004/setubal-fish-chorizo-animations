@@ -5,7 +5,7 @@ export const Route = createFileRoute("/produtos/")({
   head: () => ({
     meta: [
       { title: "Produtos — ÉPÊXE Chouriços de Peixe" },
-      { name: "description", content: "Chouriços de atum, choco e polvo, feitos à mão em Setúbal." },
+      { name: "description", content: "Conheça os chouriços de salmão, choco e pescada da ÉPÊXE, de Setúbal." },
       { property: "og:title", content: "Produtos — ÉPÊXE" },
       { property: "og:description", content: "Conheça os nossos chouriços de peixe artesanais." },
       { property: "og:type", content: "website" },
@@ -28,7 +28,7 @@ function Products() {
             params={{ slug: p.slug }}
             className="group overflow-hidden rounded-2xl border border-foam/10 bg-deep-2 transition-transform hover:-translate-y-1"
           >
-            <img src={p.images[0]} alt={p.name} width={1024} height={768} loading="lazy" className="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+            <img src={p.images[0]} alt={p.name} width={1153} height={768} loading="lazy" className="aspect-[3/2] w-full object-cover transition-transform duration-500 group-hover:scale-105" />
             <div className="p-5">
               <h2 className="font-display text-xl text-foam">{p.name}</h2>
               <p className="mt-2 text-sm text-foam/65">{p.short}</p>

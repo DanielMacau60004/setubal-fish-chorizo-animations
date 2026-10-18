@@ -1,0 +1,14 @@
+{
+  "ordem": 1,
+  "slug": "salmao",
+  "nome": "Chouriço de Salmão",
+  "resumo": "O salmão numa nova interpretação do chouriço de peixe ÉPÊXE.",
+  "descricao": [
+    "O Chouriço de Salmão integra a coleção de chouriços de peixe da ÉPÊXE, uma empresa de Setúbal.",
+    "Nas fotografias, pode conhecer o produto e vê-lo no assador de barro."
+  ],
+  "imagens": [
+    "chourico-salmao.jpeg",
+    "chourico-salmao-assador.jpeg"
+  ]
+}
