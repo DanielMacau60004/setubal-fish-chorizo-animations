@@ -44,7 +44,7 @@ function Contact() {
           <input name="email" type="email" required maxLength={255} placeholder="Email" className={field} />
         </div>
         <input name="phone" maxLength={30} placeholder="Telefone (opcional)" className={field} />
-        <textarea name="message" rows={4} maxLength={1000} placeholder="Mensagem (morada de entrega, dúvidas...)" className={field} />
+        <textarea name="message" rows={4} maxLength={1000} placeholder="Mensagem" className={field} />
         <Button type="submit" className="h-auto rounded-full bg-marine px-6 py-3 text-sm font-medium text-on-marine hover:bg-marine-deep">
           Enviar email
         </Button>
