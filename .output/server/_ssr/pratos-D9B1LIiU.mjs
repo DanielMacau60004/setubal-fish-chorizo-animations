@@ -1,6 +1,6 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
-import { t as DISHES } from "./content-ofujsWjp.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/pratos-BKz6BSBM.js
+import { t as DISHES } from "./content-Dqx3DyH9.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/pratos-D9B1LIiU.js
 var import_jsx_runtime = require_jsx_runtime();
 function Dishes() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", {

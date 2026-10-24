@@ -1,5 +1,15 @@
 import { i as stringType, n as numberType, r as objectType, t as arrayType } from "../_libs/zod.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/content-ofujsWjp.js
+//#region node_modules/.nitro/vite/services/ssr/assets/content-Dqx3DyH9.js
+var enchido_choco_default = "/setubal-fish-chorizo-animations/assets/enchido_choco-CwSqVskV.jpeg";
+var enchido_pescada_default = "/setubal-fish-chorizo-animations/assets/enchido_pescada-BGe4sjx4.jpeg";
+var enchido_pescada_1_default = "/setubal-fish-chorizo-animations/assets/enchido_pescada_1-CXgJtSP0.jpeg";
+var enchido_salmao_default = "/setubal-fish-chorizo-animations/assets/enchido_salmao-D8SbzbHu.jpeg";
+var prato_arroz_morcela_default = "/setubal-fish-chorizo-animations/assets/prato-arroz-morcela-DjCBc9JG.jpg";
+var prato_bolinhas_farinheira_default = "/setubal-fish-chorizo-animations/assets/prato-bolinhas-farinheira-Dq6X4leu.jpg";
+var prato_caldeirada_default = "/setubal-fish-chorizo-animations/assets/prato-caldeirada-BdVg8zKC.jpg";
+var prato_feijoada_default = "/setubal-fish-chorizo-animations/assets/prato-feijoada-NNo-vdaE.jpg";
+var prato_ovos_mexidos_default = "/setubal-fish-chorizo-animations/assets/prato-ovos-mexidos-CoYr64tL.jpg";
+var prato_pao_chourico_pescada_default = "/setubal-fish-chorizo-animations/assets/prato-pao-chourico-pescada-D_wWzmhA.jpg";
 var choco_default = {
 	ordem: 2,
 	slug: "choco",
@@ -66,8 +76,24 @@ var pao_chourico_pescada_default = {
 	descricao: "Uma versão original de um clássico português, onde a tradição do pão com chouriço ganha sabor a mar.",
 	imagens: ["prato-pao-chourico-pescada.jpg"]
 };
+var imageModules = /* #__PURE__ */ Object.assign({
+	"../content/imagens/enchido_choco.jpeg": enchido_choco_default,
+	"../content/imagens/enchido_pescada.jpeg": enchido_pescada_default,
+	"../content/imagens/enchido_pescada_1.jpeg": enchido_pescada_1_default,
+	"../content/imagens/enchido_salmao.jpeg": enchido_salmao_default,
+	"../content/imagens/prato-arroz-morcela.jpg": prato_arroz_morcela_default,
+	"../content/imagens/prato-bolinhas-farinheira.jpg": prato_bolinhas_farinheira_default,
+	"../content/imagens/prato-caldeirada.jpg": prato_caldeirada_default,
+	"../content/imagens/prato-feijoada.jpg": prato_feijoada_default,
+	"../content/imagens/prato-ovos-mexidos.jpg": prato_ovos_mexidos_default,
+	"../content/imagens/prato-pao-chourico-pescada.jpg": prato_pao_chourico_pescada_default
+});
+var pointerModules = /* #__PURE__ */ Object.assign({});
+var imageLookup = Object.fromEntries(Object.entries(imageModules).map(([filePath, url]) => [filePath.split("/").pop() ?? filePath, url]));
+var pointerLookup = Object.fromEntries(Object.entries(pointerModules).map(([filePath, pointer]) => [(filePath.replace(/\.asset\.json$/, "").split("/").pop() ?? filePath).replace(/\\/g, "/"), pointer.url]));
 function resolveImage(filename) {
-	return `/src/content/imagens/${filename}`;
+	const normalized = filename.replace(/\\/g, "/").split("/").pop() ?? filename;
+	return pointerLookup[normalized] ?? imageLookup[normalized] ?? `/src/content/imagens/${normalized}`;
 }
 var baseSchema = objectType({
 	ordem: numberType(),

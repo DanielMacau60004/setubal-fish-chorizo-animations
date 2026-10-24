@@ -1,17 +1,30 @@
 import { z } from "zod";
 
-const images = import.meta.glob<string>("../content/imagens/*.{jpg,jpeg,png,webp,avif,svg}", {
+const imageModules = import.meta.glob<string>("../content/imagens/*.{jpg,jpeg,png,webp,avif,svg}", {
   eager: true,
   query: "?url",
   import: "default",
 });
-const pointers = import.meta.glob<{ url: string }>("../content/imagens/*.asset.json", {
+
+const pointerModules = import.meta.glob<{ url: string }>("../content/imagens/*.asset.json", {
   eager: true,
   import: "default",
 });
 
+const imageLookup = Object.fromEntries(
+  Object.entries(imageModules).map(([filePath, url]) => [filePath.split("/").pop() ?? filePath, url]),
+);
+
+const pointerLookup = Object.fromEntries(
+  Object.entries(pointerModules).map(([filePath, pointer]) => [
+    (filePath.replace(/\.asset\.json$/, "").split("/").pop() ?? filePath).replace(/\\/g, "/"),
+    pointer.url,
+  ]),
+);
+
 function resolveImage(filename: string): string {
-  return `/src/content/imagens/${filename}`;
+  const normalized = filename.replace(/\\/g, "/").split("/").pop() ?? filename;
+  return pointerLookup[normalized] ?? imageLookup[normalized] ?? `/src/content/imagens/${normalized}`;
 }
 
 const baseSchema = z.object({

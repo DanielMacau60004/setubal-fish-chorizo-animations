@@ -1,7 +1,7 @@
-import { n as PRODUCTS } from "./content-ofujsWjp.mjs";
+import { n as PRODUCTS } from "./content-Dqx3DyH9.mjs";
 import { K as notFound, _ as createFileRoute, g as lazyRouteComponent } from "../_libs/@tanstack/react-router+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/produtos._slug-C-OTKKAc.js
-var $$splitComponentImporter = () => import("./produtos._slug-CfW-craS.mjs");
+//#region node_modules/.nitro/vite/services/ssr/assets/produtos._slug-Cc9e4kgG.js
+var $$splitComponentImporter = () => import("./produtos._slug-ucdqqts3.mjs");
 var $$splitNotFoundComponentImporter = () => import("./produtos._slug-qo4wxwZW.mjs");
 var Route = createFileRoute("/produtos/$slug")({
 	loader: ({ params }) => {

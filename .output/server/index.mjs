@@ -16,19 +16,12 @@ globalThis.__nitro_vite_envs__ = services;
 //#endregion
 //#region #nitro/virtual/public-assets-data
 var public_assets_data_default = {
-	"/favicon.ico": {
-		"type": "image/vnd.microsoft.icon",
-		"etag": "\"4f95-3RXc3p2mhEAs1WBwaIvE0Y0uu0Y\"",
-		"mtime": "2026-10-24T10:52:49.428Z",
-		"size": 20373,
-		"path": "../public/favicon.ico"
-	},
-	"/assets/contacto-DyK4p_oM.js": {
+	"/assets/contacto-DR5JTMSf.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"765-RWSUJG/bwnWGKpk+pGpDc7l1mBI\"",
-		"mtime": "2026-10-24T12:34:05.915Z",
+		"etag": "\"765-mil4UkPLJDRg0miXk6YxE+KIRb4\"",
+		"mtime": "2026-10-24T14:56:56.883Z",
 		"size": 1893,
-		"path": "../public/assets/contacto-DyK4p_oM.js"
+		"path": "../public/assets/contacto-DR5JTMSf.js"
 	},
 	"/robots.txt": {
 		"type": "text/plain; charset=utf-8",
@@ -37,143 +30,150 @@ var public_assets_data_default = {
 		"size": 174,
 		"path": "../public/robots.txt"
 	},
-	"/assets/enchido_choco-CwSqVskV.jpeg": {
-		"type": "image/jpeg",
-		"etag": "\"4231e-mGj2bn4ANw2UfKVU/CVoh3mXpV0\"",
-		"mtime": "2026-10-24T12:34:05.928Z",
-		"size": 271134,
-		"path": "../public/assets/enchido_choco-CwSqVskV.jpeg"
-	},
 	"/assets/DistilleryStrong-Dj6Otexo.ttf": {
 		"type": "font/ttf",
 		"etag": "\"32430-Xp412NuTl7VoRrLAzXMXhy0UmoY\"",
-		"mtime": "2026-10-24T12:34:05.927Z",
+		"mtime": "2026-10-24T14:56:56.891Z",
 		"size": 205872,
 		"path": "../public/assets/DistilleryStrong-Dj6Otexo.ttf"
 	},
-	"/assets/enchido_pescada-BGe4sjx4.jpeg": {
+	"/assets/enchido_choco-CwSqVskV.jpeg": {
 		"type": "image/jpeg",
-		"etag": "\"454de-ky5zkPfh6GrtXfqXVyNZO/28e58\"",
-		"mtime": "2026-10-24T12:34:05.930Z",
-		"size": 283870,
-		"path": "../public/assets/enchido_pescada-BGe4sjx4.jpeg"
-	},
-	"/assets/owner-1-DySlAp-V.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"1d901-DOUaUZdtYIHULiAUcYs97mbCgfU\"",
-		"mtime": "2026-10-24T12:34:05.935Z",
-		"size": 121089,
-		"path": "../public/assets/owner-1-DySlAp-V.jpg"
-	},
-	"/assets/owner-2-CnONKfaV.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"1bf77-a1fY2x14QBpQI+ggStY9eYnmtg8\"",
-		"mtime": "2026-10-24T12:34:05.935Z",
-		"size": 114551,
-		"path": "../public/assets/owner-2-CnONKfaV.jpg"
-	},
-	"/assets/index-BDbQF7PV.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"7417d-DjmnFtBuspOVci2neeaj6Ydo7S4\"",
-		"mtime": "2026-10-24T12:34:05.913Z",
-		"size": 475517,
-		"path": "../public/assets/index-BDbQF7PV.js"
-	},
-	"/assets/enchido_salmao-D8SbzbHu.jpeg": {
-		"type": "image/jpeg",
-		"etag": "\"38590-v0jLqCYZ8YW4K8WiTjWDmOoU4MI\"",
-		"mtime": "2026-10-24T12:34:05.933Z",
-		"size": 230800,
-		"path": "../public/assets/enchido_salmao-D8SbzbHu.jpeg"
+		"etag": "\"4231e-mGj2bn4ANw2UfKVU/CVoh3mXpV0\"",
+		"mtime": "2026-10-24T14:56:56.891Z",
+		"size": 271134,
+		"path": "../public/assets/enchido_choco-CwSqVskV.jpeg"
 	},
 	"/assets/enchido_pescada_1-CXgJtSP0.jpeg": {
 		"type": "image/jpeg",
 		"etag": "\"34741-baIAiisVdVzGRltrc2KklYMbt3A\"",
-		"mtime": "2026-10-24T12:34:05.932Z",
+		"mtime": "2026-10-24T14:56:56.891Z",
 		"size": 214849,
 		"path": "../public/assets/enchido_pescada_1-CXgJtSP0.jpeg"
 	},
-	"/assets/pratos-DuFQx6oi.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"38b-BpiroWdJMcEjvNJSNsK87/DnFJ8\"",
-		"mtime": "2026-10-24T12:34:05.917Z",
-		"size": 907,
-		"path": "../public/assets/pratos-DuFQx6oi.js"
+	"/favicon.ico": {
+		"type": "image/vnd.microsoft.icon",
+		"etag": "\"4f95-3RXc3p2mhEAs1WBwaIvE0Y0uu0Y\"",
+		"mtime": "2026-10-24T10:52:49.428Z",
+		"size": 20373,
+		"path": "../public/favicon.ico"
 	},
-	"/assets/produtos.index-QAZsl3vf.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"487-oCUW7v642JQC5Dh/JInqygI4JB8\"",
-		"mtime": "2026-10-24T12:34:05.925Z",
-		"size": 1159,
-		"path": "../public/assets/produtos.index-QAZsl3vf.js"
+	"/assets/enchido_pescada-BGe4sjx4.jpeg": {
+		"type": "image/jpeg",
+		"etag": "\"454de-ky5zkPfh6GrtXfqXVyNZO/28e58\"",
+		"mtime": "2026-10-24T14:56:56.891Z",
+		"size": 283870,
+		"path": "../public/assets/enchido_pescada-BGe4sjx4.jpeg"
 	},
-	"/assets/produtos._slug-B4tL0Y8f.js": {
+	"/assets/index-DEL-8bFS.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"593-7ksLtHQmBhI7QBL+L3g5gMJRQks\"",
-		"mtime": "2026-10-24T12:34:05.922Z",
-		"size": 1427,
-		"path": "../public/assets/produtos._slug-B4tL0Y8f.js"
+		"etag": "\"747b7-Rf+3jJmnqoBP3353GQmz3lpdRl8\"",
+		"mtime": "2026-10-24T14:56:56.881Z",
+		"size": 477111,
+		"path": "../public/assets/index-DEL-8bFS.js"
 	},
-	"/assets/produtos._slug-D88Ls8o1.js": {
+	"/assets/owner-2-CnONKfaV.jpg": {
+		"type": "image/jpeg",
+		"etag": "\"1bf77-a1fY2x14QBpQI+ggStY9eYnmtg8\"",
+		"mtime": "2026-10-24T14:56:56.901Z",
+		"size": 114551,
+		"path": "../public/assets/owner-2-CnONKfaV.jpg"
+	},
+	"/assets/owner-1-DySlAp-V.jpg": {
+		"type": "image/jpeg",
+		"etag": "\"1d901-DOUaUZdtYIHULiAUcYs97mbCgfU\"",
+		"mtime": "2026-10-24T14:56:56.901Z",
+		"size": 121089,
+		"path": "../public/assets/owner-1-DySlAp-V.jpg"
+	},
+	"/assets/enchido_salmao-D8SbzbHu.jpeg": {
+		"type": "image/jpeg",
+		"etag": "\"38590-v0jLqCYZ8YW4K8WiTjWDmOoU4MI\"",
+		"mtime": "2026-10-24T14:56:56.900Z",
+		"size": 230800,
+		"path": "../public/assets/enchido_salmao-D8SbzbHu.jpeg"
+	},
+	"/assets/produtos._slug-BaxLTHZV.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"18c-Bsh2ZT/elHq6ZYdSyamNqdxnRmw\"",
-		"mtime": "2026-10-24T12:34:05.923Z",
+		"etag": "\"18c-HBVK0MrT29j2QxhPMzCaXlDuRuo\"",
+		"mtime": "2026-10-24T14:56:56.887Z",
 		"size": 396,
-		"path": "../public/assets/produtos._slug-D88Ls8o1.js"
+		"path": "../public/assets/produtos._slug-BaxLTHZV.js"
 	},
-	"/assets/routes-BQT1KUbH.js": {
+	"/assets/pratos-B73mEIgi.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"8d2-rZX1Li0UxeskeTCzn/fJZlqXuEg\"",
-		"mtime": "2026-10-24T12:34:05.926Z",
+		"etag": "\"38b-6yDo7Sj+LkPW03YVFfxHKnp/efY\"",
+		"mtime": "2026-10-24T14:56:56.885Z",
+		"size": 907,
+		"path": "../public/assets/pratos-B73mEIgi.js"
+	},
+	"/assets/produtos.index-DTjCvSmf.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"487-ttijnh+uRsiKKSukrkg2xDYL5d8\"",
+		"mtime": "2026-10-24T14:56:56.891Z",
+		"size": 1159,
+		"path": "../public/assets/produtos.index-DTjCvSmf.js"
+	},
+	"/assets/produtos._slug-Qt5ha_0t.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"593-kKv+GsboA3hK1H7o4oCZNjJ7O/g\"",
+		"mtime": "2026-10-24T14:56:56.891Z",
+		"size": 1427,
+		"path": "../public/assets/produtos._slug-Qt5ha_0t.js"
+	},
+	"/assets/routes-BNQd4xgj.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"8d2-5kNW9UTazWHItZA8uGhylDRXkeI\"",
+		"mtime": "2026-10-24T14:56:56.891Z",
 		"size": 2258,
-		"path": "../public/assets/routes-BQT1KUbH.js"
+		"path": "../public/assets/routes-BNQd4xgj.js"
 	},
 	"/assets/styles-rhIj_xhE.css": {
 		"type": "text/css; charset=utf-8",
 		"etag": "\"14d56-DLWKff44uiZmGSRPD5+Lpapkov8\"",
-		"mtime": "2026-10-24T12:34:05.997Z",
+		"mtime": "2026-10-24T14:56:56.914Z",
 		"size": 85334,
 		"path": "../public/assets/styles-rhIj_xhE.css"
 	},
 	"/assets/prato-bolinhas-farinheira-Dq6X4leu.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"e391b-R3t1FcJk8mcsKWPZQtH+7i7oxFI\"",
-		"mtime": "2026-10-24T12:34:05.941Z",
+		"mtime": "2026-10-24T14:56:56.905Z",
 		"size": 932123,
 		"path": "../public/assets/prato-bolinhas-farinheira-Dq6X4leu.jpg"
 	},
 	"/assets/prato-arroz-morcela-DjCBc9JG.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"102683-4N9JKoLF9MTlsXsQVeKvcQ2jnYo\"",
-		"mtime": "2026-10-24T12:34:05.939Z",
+		"mtime": "2026-10-24T14:56:56.903Z",
 		"size": 1058435,
 		"path": "../public/assets/prato-arroz-morcela-DjCBc9JG.jpg"
+	},
+	"/assets/prato-caldeirada-BdVg8zKC.jpg": {
+		"type": "image/jpeg",
+		"etag": "\"131310-bp8Sq3pg427ikzo7sQMtLHoZgx0\"",
+		"mtime": "2026-10-24T14:56:56.908Z",
+		"size": 1250064,
+		"path": "../public/assets/prato-caldeirada-BdVg8zKC.jpg"
 	},
 	"/assets/prato-feijoada-NNo-vdaE.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"10f672-oIwIgwoTqRKpUuEZn8NekrBi5wY\"",
-		"mtime": "2026-10-24T12:34:05.979Z",
+		"mtime": "2026-10-24T14:56:56.911Z",
 		"size": 1111666,
 		"path": "../public/assets/prato-feijoada-NNo-vdaE.jpg"
 	},
 	"/assets/prato-ovos-mexidos-CoYr64tL.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"113768-SZ4Sy1xRf22m8z9brjmMr+QOXYQ\"",
-		"mtime": "2026-10-24T12:34:05.985Z",
+		"mtime": "2026-10-24T14:56:56.911Z",
 		"size": 1128296,
 		"path": "../public/assets/prato-ovos-mexidos-CoYr64tL.jpg"
-	},
-	"/assets/prato-caldeirada-BdVg8zKC.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"131310-bp8Sq3pg427ikzo7sQMtLHoZgx0\"",
-		"mtime": "2026-10-24T12:34:05.945Z",
-		"size": 1250064,
-		"path": "../public/assets/prato-caldeirada-BdVg8zKC.jpg"
 	},
 	"/assets/prato-pao-chourico-pescada-D_wWzmhA.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"115bf7-O7bVVm50kJCz0qDn68yo+GI1fZg\"",
-		"mtime": "2026-10-24T12:34:05.989Z",
+		"mtime": "2026-10-24T14:56:56.914Z",
 		"size": 1137655,
 		"path": "../public/assets/prato-pao-chourico-pescada-D_wWzmhA.jpg"
 	}

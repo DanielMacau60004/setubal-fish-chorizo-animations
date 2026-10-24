@@ -3,10 +3,10 @@ import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].
 import { n as require_jsx_runtime, t as QueryClientProvider } from "../_libs/react+tanstack__react-query.mjs";
 import { t as Button } from "./button-B2wejuZy.mjs";
 import { _ as createFileRoute, b as useNavigate, d as Scripts, f as HeadContent, g as lazyRouteComponent, h as Outlet, m as createRouter, v as createRootRouteWithContext, x as useRouter, y as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as Route$5 } from "./produtos._slug-C-OTKKAc.mjs";
+import { t as Route$5 } from "./produtos._slug-Cc9e4kgG.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { i as Menu, n as Sun, r as Moon, t as X } from "../_libs/lucide-react.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-Dypk10Wr.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-UC68fh9F.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var styles_default = "/setubal-fish-chorizo-animations/assets/styles-rhIj_xhE.css";
@@ -691,7 +691,7 @@ var Route$2 = createFileRoute("/contacto")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("./pratos-BKz6BSBM.mjs");
+var $$splitComponentImporter$1 = () => import("./pratos-D9B1LIiU.mjs");
 var Route$1 = createFileRoute("/pratos")({
 	head: () => ({ meta: [
 		{ title: "Pratos e Receitas — ÉPÊXE" },
@@ -718,7 +718,7 @@ var Route$1 = createFileRoute("/pratos")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./produtos.index-nVjjBPTm.mjs");
+var $$splitComponentImporter = () => import("./produtos.index-CHTV6e_u.mjs");
 var Route = createFileRoute("/produtos/")({
 	head: () => ({ meta: [
 		{ title: "Produtos — ÉPÊXE Chouriços de Peixe" },
