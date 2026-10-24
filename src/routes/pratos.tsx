@@ -7,7 +7,7 @@ export const Route = createFileRoute("/pratos")({
       { title: "Pratos e Receitas — ÉPÊXE" },
       { name: "description", content: "Ideias de pratos para cozinhar com os chouriços de peixe ÉPÊXE." },
       { property: "og:title", content: "Pratos e Receitas — ÉPÊXE" },
-      { property: "og:description", content: "Arroz, tostas e assados com chouriço de peixe." },
+      { property: "og:description", content: "Pão com chouriço, feijoada, arroz de morcela, bolinhas, ovos mexidos e caldeirada com enchidos de peixe." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
