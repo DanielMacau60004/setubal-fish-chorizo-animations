@@ -47,7 +47,7 @@ function Home() {
         <div className="mt-6 grid gap-6 sm:grid-cols-2">
           {OWNERS.map((o) => (
             <article key={o.name} className="overflow-hidden rounded-2xl border border-foam/10 bg-deep-2">
-              <img src={o.img} alt={o.name} width={768} height={960} loading="lazy" className="aspect-[4/5] w-full object-cover" />
+              <img src={o.img} alt={o.name} width={768} height={768} loading="lazy" className="aspect-[4/4] w-full object-cover" />
               <div className="p-5">
                 <h3 className="font-display text-xl text-foam">{o.name}</h3>
                 <p className="mt-1 text-sm text-foam/60">{o.role}</p>

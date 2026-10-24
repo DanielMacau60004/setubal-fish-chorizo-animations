@@ -1,14 +1,14 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-85IbDu3C.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-CXZNBmcj.js
 var import_jsx_runtime = require_jsx_runtime();
 var OWNERS = [{
 	name: "Tiago Barão",
 	role: "",
-	img: "/setubal-fish-chorizo-animations/assets/owner-1-DySlAp-V.jpg"
+	img: "/setubal-fish-chorizo-animations/assets/owner-1-C7l5CXfC.jpg"
 }, {
 	name: "Sergio Mayorga",
 	role: "",
-	img: "/setubal-fish-chorizo-animations/assets/owner-2-CnONKfaV.jpg"
+	img: "/setubal-fish-chorizo-animations/assets/owner-2-DVfbpcBK.jpg"
 }];
 function Home() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", {
@@ -46,9 +46,9 @@ function Home() {
 						src: o.img,
 						alt: o.name,
 						width: 768,
-						height: 960,
+						height: 768,
 						loading: "lazy",
-						className: "aspect-[4/5] w-full object-cover"
+						className: "aspect-[4/4] w-full object-cover"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 						className: "p-5",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {

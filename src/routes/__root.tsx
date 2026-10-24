@@ -16,7 +16,7 @@ import { reportLovableError } from "../lib/lovable-error-reporting";
 import { EpexeLoader } from "@/components/EpexeLoader";
 import { SiteHeader, SiteFooter } from "@/components/SiteHeader";
 import { ThemeProvider } from "@/components/ThemeProvider";
-import setubalDocks from "@/assets/setubal-fontainhas.jpg.asset.json";
+import setubalDocks from "@/assets/setubal-fontainhas.png";
 
 function NotFoundComponent() {
   return (
@@ -132,13 +132,47 @@ function RootComponent() {
     navigate({ to: "/" });
   }, [navigate]);
 
+  useEffect(() => {
+    if (!intro) return;
+
+    const previousOverflow = document.body.style.overflow;
+    const previousOverflowX = document.body.style.overflowX;
+    const previousHtmlOverflow = document.documentElement.style.overflow;
+    const previousScrollbarWidth = document.documentElement.style.getPropertyValue("scrollbar-width");
+    const previousMsOverflowStyle = document.documentElement.style.getPropertyValue("-ms-overflow-style");
+
+    document.body.style.overflow = "hidden";
+    document.body.style.overflowX = "hidden";
+    document.documentElement.style.overflow = "hidden";
+    document.documentElement.style.setProperty("scrollbar-width", "none");
+    document.documentElement.style.setProperty("-ms-overflow-style", "none");
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.body.style.overflowX = previousOverflowX;
+      document.documentElement.style.overflow = previousHtmlOverflow;
+
+      if (previousScrollbarWidth) {
+        document.documentElement.style.setProperty("scrollbar-width", previousScrollbarWidth);
+      } else {
+        document.documentElement.style.removeProperty("scrollbar-width");
+      }
+
+      if (previousMsOverflowStyle) {
+        document.documentElement.style.setProperty("-ms-overflow-style", previousMsOverflowStyle);
+      } else {
+        document.documentElement.style.removeProperty("-ms-overflow-style");
+      }
+    };
+  }, [intro]);
+
   return (
     <QueryClientProvider client={queryClient}>
       <ThemeProvider>
       {intro && <EpexeLoader fullscreen onComplete={finishIntro} />}
       <div className="site-shell min-h-screen text-foam">
         <div className="site-backdrop" aria-hidden="true">
-          <img src={setubalDocks.url} alt="" width={3056} height={2038} />
+          <img src={setubalDocks} alt="" width={3056} height={2038} />
         </div>
         <SiteHeader />
         <Outlet />

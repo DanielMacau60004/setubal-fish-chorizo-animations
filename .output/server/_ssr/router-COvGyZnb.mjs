@@ -6,10 +6,10 @@ import { _ as createFileRoute, b as useNavigate, d as Scripts, f as HeadContent,
 import { t as Route$5 } from "./produtos._slug-Cc9e4kgG.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { i as Menu, n as Sun, r as Moon, t as X } from "../_libs/lucide-react.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-UC68fh9F.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-COvGyZnb.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
-var styles_default = "/setubal-fish-chorizo-animations/assets/styles-rhIj_xhE.css";
+var styles_default = "/setubal-fish-chorizo-animations/assets/styles-DUHuQ25H.css";
 function reportLovableError(error, context = {}) {
 	if (typeof window === "undefined") return;
 	window.__lovableEvents?.captureException?.(error, {
@@ -211,7 +211,7 @@ var BUBBLES = [
 function EpexeLoader({ onComplete, fullscreen = false }) {
 	(0, import_react.useEffect)(() => {
 		if (!onComplete) return;
-		const t = setTimeout(onComplete, 2600);
+		const t = setTimeout(onComplete, 1800);
 		return () => clearTimeout(t);
 	}, [onComplete]);
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -455,17 +455,7 @@ function SiteFooter() {
 		children: "ÉPÊXE · Enchidos de Peixe · Setúbal"
 	});
 }
-var setubal_fontainhas_jpg_asset_default = {
-	version: 1,
-	asset_id: "21971c48-b37c-462c-a40e-6984bb312684",
-	project_id: "909cbca9-3e94-44f2-ad80-745f1fc2ded9",
-	url: "/__l5e/assets-v1/21971c48-b37c-462c-a40e-6984bb312684/setubal-fontainhas.jpg",
-	r2_key: "a/v1/909cbca9-3e94-44f2-ad80-745f1fc2ded9/21971c48-b37c-462c-a40e-6984bb312684/setubal-fontainhas.jpg",
-	original_filename: "setubal-fontainhas.jpg",
-	size: 1035464,
-	content_type: "image/jpeg",
-	created_at: "2026-10-17T18:11:12Z"
-};
+var setubal_fontainhas_default = "/setubal-fish-chorizo-animations/assets/setubal-fontainhas-BeYXejnV.png";
 function NotFoundComponent() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 		className: "flex min-h-screen items-center justify-center bg-background px-4",
@@ -612,6 +602,28 @@ function RootComponent() {
 		setIntro(false);
 		navigate({ to: "/" });
 	}, [navigate]);
+	(0, import_react.useEffect)(() => {
+		if (!intro) return;
+		const previousOverflow = document.body.style.overflow;
+		const previousOverflowX = document.body.style.overflowX;
+		const previousHtmlOverflow = document.documentElement.style.overflow;
+		const previousScrollbarWidth = document.documentElement.style.getPropertyValue("scrollbar-width");
+		const previousMsOverflowStyle = document.documentElement.style.getPropertyValue("-ms-overflow-style");
+		document.body.style.overflow = "hidden";
+		document.body.style.overflowX = "hidden";
+		document.documentElement.style.overflow = "hidden";
+		document.documentElement.style.setProperty("scrollbar-width", "none");
+		document.documentElement.style.setProperty("-ms-overflow-style", "none");
+		return () => {
+			document.body.style.overflow = previousOverflow;
+			document.body.style.overflowX = previousOverflowX;
+			document.documentElement.style.overflow = previousHtmlOverflow;
+			if (previousScrollbarWidth) document.documentElement.style.setProperty("scrollbar-width", previousScrollbarWidth);
+			else document.documentElement.style.removeProperty("scrollbar-width");
+			if (previousMsOverflowStyle) document.documentElement.style.setProperty("-ms-overflow-style", previousMsOverflowStyle);
+			else document.documentElement.style.removeProperty("-ms-overflow-style");
+		};
+	}, [intro]);
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(QueryClientProvider, {
 		client: queryClient,
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(ThemeProvider, { children: [intro && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(EpexeLoader, {
@@ -624,7 +636,7 @@ function RootComponent() {
 					className: "site-backdrop",
 					"aria-hidden": "true",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-						src: setubal_fontainhas_jpg_asset_default.url,
+						src: setubal_fontainhas_default,
 						alt: "",
 						width: 3056,
 						height: 2038
@@ -637,7 +649,7 @@ function RootComponent() {
 		})] })
 	});
 }
-var $$splitComponentImporter$3 = () => import("./routes-85IbDu3C.mjs");
+var $$splitComponentImporter$3 = () => import("./routes-CXZNBmcj.mjs");
 var Route$3 = createFileRoute("/")({
 	head: () => ({ meta: [
 		{ title: "ÉPÊXE — A nossa história · Chouriços de Peixe de Setúbal" },

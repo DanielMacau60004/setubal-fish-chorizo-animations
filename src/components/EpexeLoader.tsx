@@ -32,7 +32,7 @@ type EpexeLoaderProps = {
 export function EpexeLoader({ onComplete, fullscreen = false }: EpexeLoaderProps) {
   useEffect(() => {
     if (!onComplete) return;
-    const t = setTimeout(onComplete, 2600);
+    const t = setTimeout(onComplete, 1800);
     return () => clearTimeout(t);
   }, [onComplete]);
 
