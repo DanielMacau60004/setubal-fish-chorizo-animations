@@ -1,6 +1,6 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { n as PRODUCTS } from "./content-Dqx3DyH9.mjs";
-import { y as Link } from "../_libs/@tanstack/react-router+[...].mjs";
+import { b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 //#region node_modules/.nitro/vite/services/ssr/assets/produtos.index-CHTV6e_u.js
 var import_jsx_runtime = require_jsx_runtime();
 function Products() {

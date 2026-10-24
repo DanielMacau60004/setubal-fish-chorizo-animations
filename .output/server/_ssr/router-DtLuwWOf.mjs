@@ -2,11 +2,11 @@ import { n as __toESM } from "../_runtime.mjs";
 import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].mjs";
 import { n as require_jsx_runtime, t as QueryClientProvider } from "../_libs/react+tanstack__react-query.mjs";
 import { t as Button } from "./button-B2wejuZy.mjs";
-import { _ as createFileRoute, b as useNavigate, d as Scripts, f as HeadContent, g as lazyRouteComponent, h as Outlet, m as createRouter, v as createRootRouteWithContext, x as useRouter, y as Link } from "../_libs/@tanstack/react-router+[...].mjs";
+import { S as useRouter, _ as lazyRouteComponent, b as Link, d as Scripts, f as HeadContent, g as Outlet, h as createRouter, p as useRouterState, v as createFileRoute, x as useNavigate, y as createRootRouteWithContext } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as Route$5 } from "./produtos._slug-Cc9e4kgG.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { i as Menu, n as Sun, r as Moon, t as X } from "../_libs/lucide-react.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-COvGyZnb.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-DtLuwWOf.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var styles_default = "/setubal-fish-chorizo-animations/assets/styles-DUHuQ25H.css";
@@ -591,17 +591,33 @@ var Route$4 = createRootRouteWithContext()({
 function RootShell({ children }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("html", {
 		lang: "pt",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("head", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("script", { dangerouslySetInnerHTML: { __html: `(function(){var saved=null;try{saved=localStorage.getItem('epexe-theme')}catch(e){}var dark=saved==='dark'||(saved!=='light'&&window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.classList.toggle('dark',dark);document.documentElement.dataset.theme=dark?'dark':'light'})()` } }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(HeadContent, {})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("body", { children: [children, /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scripts, {})] })]
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("head", { children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("script", { dangerouslySetInnerHTML: { __html: `(function(){var saved=null;try{saved=localStorage.getItem('epexe-theme')}catch(e){}var dark=saved==='dark'||(saved!=='light'&&window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.classList.toggle('dark',dark);document.documentElement.dataset.theme=dark?'dark':'light'})()` } }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("script", {
+				async: true,
+				src: "https://www.googletagmanager.com/gtag/js?id=G-D10P4B4Y09"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("script", { dangerouslySetInnerHTML: { __html: `window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments)};window.gtag('js',new Date());window.gtag('config','G-D10P4B4Y09',{send_page_view:false});` } }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(HeadContent, {})
+		] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("body", { children: [children, /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scripts, {})] })]
 	});
 }
 function RootComponent() {
 	const { queryClient } = Route$4.useRouteContext();
 	const navigate = useNavigate();
+	const pagePath = useRouterState({ select: (state) => state.location.href });
 	const [intro, setIntro] = (0, import_react.useState)(true);
 	const finishIntro = (0, import_react.useCallback)(() => {
 		setIntro(false);
 		navigate({ to: "/" });
 	}, [navigate]);
+	(0, import_react.useEffect)(() => {
+		window.gtag("event", "page_view", {
+			page_path: pagePath,
+			page_location: window.location.href,
+			page_title: document.title
+		});
+	}, [pagePath]);
 	(0, import_react.useEffect)(() => {
 		if (!intro) return;
 		const previousOverflow = document.body.style.overflow;

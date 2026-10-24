@@ -5,6 +5,7 @@ import {
   createRootRouteWithContext,
   useRouter,
   useNavigate,
+  useRouterState,
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
@@ -17,6 +18,12 @@ import { EpexeLoader } from "@/components/EpexeLoader";
 import { SiteHeader, SiteFooter } from "@/components/SiteHeader";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import setubalDocks from "@/assets/setubal-fontainhas.png";
+
+declare global {
+  interface Window {
+    gtag: (...args: unknown[]) => void;
+  }
+}
 
 function NotFoundComponent() {
   return (
@@ -113,6 +120,12 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang="pt">
       <head>
         <script dangerouslySetInnerHTML={{ __html: `(function(){var saved=null;try{saved=localStorage.getItem('epexe-theme')}catch(e){}var dark=saved==='dark'||(saved!=='light'&&window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.classList.toggle('dark',dark);document.documentElement.dataset.theme=dark?'dark':'light'})()` }} />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D10P4B4Y09" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments)};window.gtag('js',new Date());window.gtag('config','G-D10P4B4Y09',{send_page_view:false});`,
+          }}
+        />
         <HeadContent />
       </head>
       <body>
@@ -126,11 +139,20 @@ function RootShell({ children }: { children: ReactNode }) {
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
   const navigate = useNavigate();
+  const pagePath = useRouterState({ select: (state) => state.location.href });
   const [intro, setIntro] = useState(true);
   const finishIntro = useCallback(() => {
     setIntro(false);
     navigate({ to: "/" });
   }, [navigate]);
+
+  useEffect(() => {
+    window.gtag("event", "page_view", {
+      page_path: pagePath,
+      page_location: window.location.href,
+      page_title: document.title,
+    });
+  }, [pagePath]);
 
   useEffect(() => {
     if (!intro) return;
