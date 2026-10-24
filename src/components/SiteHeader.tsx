@@ -78,7 +78,7 @@ export function SiteHeader() {
 export function SiteFooter() {
   return (
     <footer className="mt-20 border-t border-foam/10 py-8 text-center text-xs text-foam/50">
-      ÉPÊXE · Chouriços de Peixe · Setúbal
+      ÉPÊXE · Enchidos de Peixe · Setúbal
     </footer>
   );
 }
