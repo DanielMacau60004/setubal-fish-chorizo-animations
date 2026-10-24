@@ -1,13 +1,12 @@
 {
-  "ordem": 1,
+  "ordem": 3,
   "slug": "salmao",
-  "nome": "Enchido de pescada estilo chouriço",
+  "nome": "Enchido de salmão estilo farinheira",
   "resumo": "",
   "descricao": [
-    "A tradição do chouriço português reinventada com pescada, num enchido que combina a identidade dos sabores tradicionais com a inspiração do mar."
+    "A suavidade e a riqueza do salmão encontram inspiração na farinheira tradicional, dando origem a uma nova interpretação dos enchidos portugueses."
   ],
   "imagens": [
-    "chourico-salmao.jpeg",
-    "chourico-salmao-assador.jpeg"
+    "enchido_salmao.jpeg"
   ]
 }

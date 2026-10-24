@@ -11,10 +11,7 @@ const pointers = import.meta.glob<{ url: string }>("../content/imagens/*.asset.j
 });
 
 function resolveImage(filename: string): string {
-  const path = `../content/imagens/${filename}`;
-  const url = images[path] ?? pointers[`${path}.asset.json`]?.url;
-  if (!url) throw new Error(`Imagem não encontrada em src/content/imagens: ${filename}`);
-  return url;
+  return `/src/content/imagens/${filename}`;
 }
 
 const baseSchema = z.object({
