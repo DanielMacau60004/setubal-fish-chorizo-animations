@@ -27,21 +27,17 @@ function Home() {
       <section className="max-w-3xl">
         <p className="text-xs uppercase tracking-[0.3em] text-marine">A nossa história</p>
         <h1 className="mt-3 font-display text-4xl leading-tight text-foam md:text-5xl">
-          Do mar de Setúbal para a sua mesa.
+          Do mar para a sua mesa.
         </h1>
         <div className="mt-6 space-y-4 text-foam/75">
           <p>
-            A ÉPÊXE nasceu entre as redes e as bancas da lota de Setúbal. Crescemos a ver o peixe
-            chegar todas as manhãs e a ouvir as receitas que passavam de geração em geração.
+            A ÉPÊXE nasceu da vontade de valorizar as raízes e a identidade de Setúbal, celebrando a sua profunda ligação ao mar e a um dos maiores tesouros naturais de Portugal: o peixe.
           </p>
           <p>
-            Um dia perguntámo-nos: e se o chouriço, tão nosso, fosse feito com o melhor do mar?
-            Depois de muitas experiências na cozinha, nasceram os primeiros chouriços de peixe —
-            artesanais, fumados em lenha e sem conservantes.
+            Inspirados pela riqueza da nossa costa e pela tradição gastronómica portuguesa, decidimos reinventar uma categoria tão enraizada na nossa cultura como a dos enchidos tradicionais de porco. Assim nasceu a ÉPÊXE: uma nova forma de olhar para a tradição, onde os sabores do peixe encontram a autenticidade e o saber-fazer que fazem parte da nossa identidade.
           </p>
           <p>
-            Hoje continuamos a fazê-los à mão, em pequenos lotes, com peixe fresco comprado aos
-            pescadores da nossa terra.
+            Inovar não significa esquecer o passado, mas encontrar novas formas de o honrar. Por isso, criamos produtos que respeitam a tradição portuguesa, abraçando simultaneamente a criatividade e o potencial dos recursos que o nosso mar nos oferece.
           </p>
         </div>
       </section>
