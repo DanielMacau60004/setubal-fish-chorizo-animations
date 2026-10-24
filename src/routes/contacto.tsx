@@ -37,7 +37,7 @@ function Contact() {
   return (
     <main className="mx-auto max-w-3xl px-5 py-14">
       <h1 className="font-display text-4xl text-foam">Contacto</h1>
-      <p className="mt-3 text-foam/70">Preencha o formulário para nos enviar um email com a sua encomenda.</p>
+      <p className="mt-3 text-foam/70">Tem interesse em conhecer melhor a ÉPÊXE ou explorar uma possível colaboração?{"\u00a0"}<br />Estamos disponíveis para conversar com profissionais do setor alimentar, empresas e potenciais parceiros interessados em conhecer os nossos Enchidos do Mar e acompanhar o desenvolvimento do projeto.<br /><br /><br />Para questões, parcerias ou oportunidades de colaboração, entre em contacto connosco.</p>
       <form onSubmit={onSubmit} className="mt-10 space-y-5 rounded-2xl border border-foam/10 bg-deep-2 p-6">
         <div className="grid gap-4 sm:grid-cols-2">
           <input name="name" required maxLength={100} placeholder="Nome" className={field} />
@@ -49,7 +49,7 @@ function Contact() {
           Enviar email
         </Button>
       </form>
-      <p className="mt-6 text-sm text-foam/60">Ou escreva-nos diretamente para {COMPANY_EMAIL}</p>
+      <p className="mt-6 text-sm text-foam/60">Ou escreva-nos diretamente para apoioaocliente@epexe.pt</p>
     </main>
   );
 }
