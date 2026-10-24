@@ -17,8 +17,8 @@ export const Route = createFileRoute("/")({
 });
 
 const OWNERS = [
-  { name: "João Marques", role: "Cofundador · Mestre salsicheiro", img: owner1 },
-  { name: "Ana Correia", role: "Cofundadora · Sabores e receitas", img: owner2 },
+  { name: "Tiago Barão", role: "", img: owner1 },
+  { name: "Sergio Mayorga", role: "", img: owner2 },
 ];
 
 function Home() {
