@@ -1,1 +1,9 @@
-{"ordem": 8, "slug": "ovos-mexidos-farinheira", "nome": "Ovos mexidos com farinheira", "descricao": "Um clássico reconfortante reinventado com salmão, ideal para um brunch ou uma refeição descontraída.", "imagens": ["prato-ovos-mexidos.jpg"]}
+{
+  "ordem": 5,
+  "slug": "ovos-mexidos-farinheira",
+  "nome": "Ovos mexidos com farinheira",
+  "descricao": "Um clássico reconfortante reinventado com salmão, ideal para um brunch ou uma refeição descontraída.",
+  "imagens": [
+    "prato-ovos-mexidos.jpg"
+  ]
+}

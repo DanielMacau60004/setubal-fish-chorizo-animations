@@ -1,1 +1,9 @@
-{"ordem": 9, "slug": "caldeirada-safio-pata-roxa", "nome": "Caldeirada de safio e pata-roxa", "descricao": "Um clássico da tradição piscatória portuguesa, onde os sabores autênticos do peixe e do mar celebram a riqueza gastronómica de Setúbal.", "imagens": ["prato-caldeirada.jpg"]}
+{
+  "ordem": 6,
+  "slug": "caldeirada-safio-pata-roxa",
+  "nome": "Caldeirada de safio e pata-roxa",
+  "descricao": "Um clássico da tradição piscatória portuguesa, onde os sabores autênticos do peixe e do mar celebram a riqueza gastronómica de Setúbal.",
+  "imagens": [
+    "prato-caldeirada.jpg"
+  ]
+}

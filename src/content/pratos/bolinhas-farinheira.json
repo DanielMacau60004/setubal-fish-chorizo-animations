@@ -1,1 +1,9 @@
-{"ordem": 7, "slug": "bolinhas-farinheira", "nome": "Bolinhas de farinheira de salmão", "descricao": "Pequenos petiscos crocantes por fora e saborosos por dentro, perfeitos para partilhar.", "imagens": ["prato-bolinhas-farinheira.jpg"]}
+{
+  "ordem": 4,
+  "slug": "bolinhas-farinheira",
+  "nome": "Bolinhas de farinheira de salmão",
+  "descricao": "Pequenos petiscos crocantes por fora e saborosos por dentro, perfeitos para partilhar.",
+  "imagens": [
+    "prato-bolinhas-farinheira.jpg"
+  ]
+}
