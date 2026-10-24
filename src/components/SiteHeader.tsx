@@ -79,10 +79,6 @@ export function SiteFooter() {
   return (
     <footer className="mt-20 border-t border-foam/10 py-8 text-center text-xs text-foam/50">
       ÉPÊXE · Chouriços de Peixe · Setúbal
-      <p className="mt-3 px-5">
-        Fotografia: <a href="https://commons.wikimedia.org/wiki/File:Miradouro_das_Fonta%C3%ADnhas_-_Vista_para_o_Porto_de_Set%C3%BAbal.jpg" target="_blank" rel="noreferrer" className="underline hover:text-foam">El-Kelaa-des-Sraghna · Miradouro das Fontaínhas</a>
-        {" · "}<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer" className="underline hover:text-foam">CC BY-SA 4.0</a>
-      </p>
     </footer>
   );
 }
