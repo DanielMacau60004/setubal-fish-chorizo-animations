@@ -1,1 +1,9 @@
-{"ordem": 4, "slug": "pao-chourico-pescada", "nome": "Pão com chouriço de pescada", "descricao": "Uma versão original de um clássico português, onde a tradição do pão com chouriço ganha sabor a mar.", "imagens": ["prato-pao-chourico-pescada.jpg"]}
+{
+  "ordem": 1,
+  "slug": "pao-chourico-pescada",
+  "nome": "Pão com chouriço de pescada",
+  "descricao": "Uma versão original de um clássico português, onde a tradição do pão com chouriço ganha sabor a mar.",
+  "imagens": [
+    "prato-pao-chourico-pescada.jpg"
+  ]
+}
