@@ -16,19 +16,12 @@ globalThis.__nitro_vite_envs__ = services;
 //#endregion
 //#region #nitro/virtual/public-assets-data
 var public_assets_data_default = {
-	"/assets/contacto-CwKIDNw1.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"765-xLft/gRaisRJbKdHQdeekYuwPaU\"",
-		"mtime": "2026-10-24T20:45:42.054Z",
-		"size": 1893,
-		"path": "../public/assets/contacto-CwKIDNw1.js"
-	},
-	"/assets/enchido_choco-CwSqVskV.jpeg": {
-		"type": "image/jpeg",
-		"etag": "\"4231e-mGj2bn4ANw2UfKVU/CVoh3mXpV0\"",
-		"mtime": "2026-10-24T20:45:42.072Z",
-		"size": 271134,
-		"path": "../public/assets/enchido_choco-CwSqVskV.jpeg"
+	"/favicon.ico": {
+		"type": "image/vnd.microsoft.icon",
+		"etag": "\"4f95-3RXc3p2mhEAs1WBwaIvE0Y0uu0Y\"",
+		"mtime": "2026-10-24T10:52:49.428Z",
+		"size": 20373,
+		"path": "../public/favicon.ico"
 	},
 	"/robots.txt": {
 		"type": "text/plain; charset=utf-8",
@@ -40,147 +33,154 @@ var public_assets_data_default = {
 	"/assets/DistilleryStrong-Dj6Otexo.ttf": {
 		"type": "font/ttf",
 		"etag": "\"32430-Xp412NuTl7VoRrLAzXMXhy0UmoY\"",
-		"mtime": "2026-10-24T20:45:42.070Z",
+		"mtime": "2026-10-24T20:59:27.099Z",
 		"size": 205872,
 		"path": "../public/assets/DistilleryStrong-Dj6Otexo.ttf"
+	},
+	"/assets/contacto-CwKIDNw1.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"765-xLft/gRaisRJbKdHQdeekYuwPaU\"",
+		"mtime": "2026-10-24T20:59:27.090Z",
+		"size": 1893,
+		"path": "../public/assets/contacto-CwKIDNw1.js"
 	},
 	"/assets/enchido_pescada-BGe4sjx4.jpeg": {
 		"type": "image/jpeg",
 		"etag": "\"454de-ky5zkPfh6GrtXfqXVyNZO/28e58\"",
-		"mtime": "2026-10-24T20:45:42.074Z",
+		"mtime": "2026-10-24T20:59:27.104Z",
 		"size": 283870,
 		"path": "../public/assets/enchido_pescada-BGe4sjx4.jpeg"
 	},
-	"/assets/enchido_salmao-D8SbzbHu.jpeg": {
+	"/assets/enchido_choco-CwSqVskV.jpeg": {
 		"type": "image/jpeg",
-		"etag": "\"38590-v0jLqCYZ8YW4K8WiTjWDmOoU4MI\"",
-		"mtime": "2026-10-24T20:45:42.077Z",
-		"size": 230800,
-		"path": "../public/assets/enchido_salmao-D8SbzbHu.jpeg"
+		"etag": "\"4231e-mGj2bn4ANw2UfKVU/CVoh3mXpV0\"",
+		"mtime": "2026-10-24T20:59:27.101Z",
+		"size": 271134,
+		"path": "../public/assets/enchido_choco-CwSqVskV.jpeg"
 	},
 	"/assets/enchido_pescada_1-CXgJtSP0.jpeg": {
 		"type": "image/jpeg",
 		"etag": "\"34741-baIAiisVdVzGRltrc2KklYMbt3A\"",
-		"mtime": "2026-10-24T20:45:42.076Z",
+		"mtime": "2026-10-24T20:59:27.107Z",
 		"size": 214849,
 		"path": "../public/assets/enchido_pescada_1-CXgJtSP0.jpeg"
 	},
 	"/assets/index-Cp3KfRxC.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"74c6d-IevDCdBjKQjurMg8wNBVAqxBehs\"",
-		"mtime": "2026-10-24T20:45:42.052Z",
+		"mtime": "2026-10-24T20:59:27.088Z",
 		"size": 478317,
 		"path": "../public/assets/index-Cp3KfRxC.js"
 	},
-	"/favicon.ico": {
-		"type": "image/vnd.microsoft.icon",
-		"etag": "\"4f95-3RXc3p2mhEAs1WBwaIvE0Y0uu0Y\"",
-		"mtime": "2026-10-24T10:52:49.428Z",
-		"size": 20373,
-		"path": "../public/favicon.ico"
+	"/assets/enchido_salmao-D8SbzbHu.jpeg": {
+		"type": "image/jpeg",
+		"etag": "\"38590-v0jLqCYZ8YW4K8WiTjWDmOoU4MI\"",
+		"mtime": "2026-10-24T20:59:27.109Z",
+		"size": 230800,
+		"path": "../public/assets/enchido_salmao-D8SbzbHu.jpeg"
 	},
 	"/assets/owner-2-DVfbpcBK.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"17b77-6t/4M051dLbVNmnHEqdUZMLmeDc\"",
-		"mtime": "2026-10-24T20:45:42.082Z",
+		"mtime": "2026-10-24T20:59:27.113Z",
 		"size": 97143,
 		"path": "../public/assets/owner-2-DVfbpcBK.jpg"
 	},
 	"/assets/owner-1-C7l5CXfC.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"6059f-j4tWa0AFkvEA3YyTM3ksFl4+VO4\"",
-		"mtime": "2026-10-24T20:45:42.080Z",
+		"mtime": "2026-10-24T20:59:27.111Z",
 		"size": 394655,
 		"path": "../public/assets/owner-1-C7l5CXfC.jpg"
-	},
-	"/assets/pratos-DQm0eiTs.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"38b-3wYSfVWXqqedrPOYYUh0hAYvlXw\"",
-		"mtime": "2026-10-24T20:45:42.055Z",
-		"size": 907,
-		"path": "../public/assets/pratos-DQm0eiTs.js"
 	},
 	"/assets/produtos.index-3rXTQLui.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"487-4BKifF/3KDvrs9np4ck8P4VVGBA\"",
-		"mtime": "2026-10-24T20:45:42.064Z",
+		"mtime": "2026-10-24T20:59:27.096Z",
 		"size": 1159,
 		"path": "../public/assets/produtos.index-3rXTQLui.js"
+	},
+	"/assets/pratos-DQm0eiTs.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"38b-3wYSfVWXqqedrPOYYUh0hAYvlXw\"",
+		"mtime": "2026-10-24T20:59:27.091Z",
+		"size": 907,
+		"path": "../public/assets/pratos-DQm0eiTs.js"
 	},
 	"/assets/produtos._slug-BJ22uNPM.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"593-WkiTlAz4WlFGKLW3UfxSUT4I2HU\"",
-		"mtime": "2026-10-24T20:45:42.061Z",
+		"mtime": "2026-10-24T20:59:27.092Z",
 		"size": 1427,
 		"path": "../public/assets/produtos._slug-BJ22uNPM.js"
-	},
-	"/assets/routes-BEqi8taR.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"8d2-ZRoHekkw8JVguc+qZFr0qOF8f+Q\"",
-		"mtime": "2026-10-24T20:45:42.066Z",
-		"size": 2258,
-		"path": "../public/assets/routes-BEqi8taR.js"
 	},
 	"/assets/produtos._slug-v6O18GhX.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"18c-who+uZIdMAI/w97CJX+GcwP1MIk\"",
-		"mtime": "2026-10-24T20:45:42.063Z",
+		"mtime": "2026-10-24T20:59:27.095Z",
 		"size": 396,
 		"path": "../public/assets/produtos._slug-v6O18GhX.js"
 	},
-	"/assets/prato-bolinhas-farinheira-Dq6X4leu.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"e391b-R3t1FcJk8mcsKWPZQtH+7i7oxFI\"",
-		"mtime": "2026-10-24T20:45:42.090Z",
-		"size": 932123,
-		"path": "../public/assets/prato-bolinhas-farinheira-Dq6X4leu.jpg"
+	"/assets/routes-BEqi8taR.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"8d2-ZRoHekkw8JVguc+qZFr0qOF8f+Q\"",
+		"mtime": "2026-10-24T20:59:27.098Z",
+		"size": 2258,
+		"path": "../public/assets/routes-BEqi8taR.js"
 	},
 	"/assets/styles-DUHuQ25H.css": {
 		"type": "text/css; charset=utf-8",
 		"etag": "\"14d56-7sz2HVIlR/G9G1XkhsCd8q5P1PU\"",
-		"mtime": "2026-10-24T20:45:42.114Z",
+		"mtime": "2026-10-24T20:59:27.134Z",
 		"size": 85334,
 		"path": "../public/assets/styles-DUHuQ25H.css"
+	},
+	"/assets/prato-bolinhas-farinheira-Dq6X4leu.jpg": {
+		"type": "image/jpeg",
+		"etag": "\"e391b-R3t1FcJk8mcsKWPZQtH+7i7oxFI\"",
+		"mtime": "2026-10-24T20:59:27.119Z",
+		"size": 932123,
+		"path": "../public/assets/prato-bolinhas-farinheira-Dq6X4leu.jpg"
 	},
 	"/assets/prato-arroz-morcela-DjCBc9JG.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"102683-4N9JKoLF9MTlsXsQVeKvcQ2jnYo\"",
-		"mtime": "2026-10-24T20:45:42.086Z",
+		"mtime": "2026-10-24T20:59:27.115Z",
 		"size": 1058435,
 		"path": "../public/assets/prato-arroz-morcela-DjCBc9JG.jpg"
-	},
-	"/assets/prato-caldeirada-BdVg8zKC.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"131310-bp8Sq3pg427ikzo7sQMtLHoZgx0\"",
-		"mtime": "2026-10-24T20:45:42.094Z",
-		"size": 1250064,
-		"path": "../public/assets/prato-caldeirada-BdVg8zKC.jpg"
 	},
 	"/assets/prato-feijoada-NNo-vdaE.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"10f672-oIwIgwoTqRKpUuEZn8NekrBi5wY\"",
-		"mtime": "2026-10-24T20:45:42.096Z",
+		"mtime": "2026-10-24T20:59:27.124Z",
 		"size": 1111666,
 		"path": "../public/assets/prato-feijoada-NNo-vdaE.jpg"
+	},
+	"/assets/prato-caldeirada-BdVg8zKC.jpg": {
+		"type": "image/jpeg",
+		"etag": "\"131310-bp8Sq3pg427ikzo7sQMtLHoZgx0\"",
+		"mtime": "2026-10-24T20:59:27.122Z",
+		"size": 1250064,
+		"path": "../public/assets/prato-caldeirada-BdVg8zKC.jpg"
 	},
 	"/assets/prato-ovos-mexidos-CoYr64tL.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"113768-SZ4Sy1xRf22m8z9brjmMr+QOXYQ\"",
-		"mtime": "2026-10-24T20:45:42.100Z",
+		"mtime": "2026-10-24T20:59:27.127Z",
 		"size": 1128296,
 		"path": "../public/assets/prato-ovos-mexidos-CoYr64tL.jpg"
 	},
 	"/assets/prato-pao-chourico-pescada-D_wWzmhA.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"115bf7-O7bVVm50kJCz0qDn68yo+GI1fZg\"",
-		"mtime": "2026-10-24T20:45:42.103Z",
+		"mtime": "2026-10-24T20:59:27.129Z",
 		"size": 1137655,
 		"path": "../public/assets/prato-pao-chourico-pescada-D_wWzmhA.jpg"
 	},
 	"/assets/setubal-fontainhas-BeYXejnV.png": {
 		"type": "image/png",
 		"etag": "\"364975-JEbemIxDP3sFAaL4rkDBdy0PB6I\"",
-		"mtime": "2026-10-24T20:45:42.109Z",
+		"mtime": "2026-10-24T20:59:27.132Z",
 		"size": 3557749,
 		"path": "../public/assets/setubal-fontainhas-BeYXejnV.png"
 	}
