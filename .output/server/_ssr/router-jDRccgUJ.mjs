@@ -3,13 +3,13 @@ import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].
 import { n as require_jsx_runtime, t as QueryClientProvider } from "../_libs/react+tanstack__react-query.mjs";
 import { t as Button } from "./button-B2wejuZy.mjs";
 import { S as useRouter, _ as lazyRouteComponent, b as Link, d as Scripts, f as HeadContent, g as Outlet, h as createRouter, p as useRouterState, v as createFileRoute, x as useNavigate, y as createRootRouteWithContext } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as Route$5 } from "./produtos._slug-Cc9e4kgG.mjs";
+import { t as Route$5 } from "./produtos._slug-BzajSauF.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { i as Menu, n as Sun, r as Moon, t as X } from "../_libs/lucide-react.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-DtLuwWOf.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-jDRccgUJ.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
-var styles_default = "/setubal-fish-chorizo-animations/assets/styles-DUHuQ25H.css";
+var styles_default = "/assets/styles-BzBQ7PYF.css";
 function reportLovableError(error, context = {}) {
 	if (typeof window === "undefined") return;
 	window.__lovableEvents?.captureException?.(error, {
@@ -455,7 +455,10 @@ function SiteFooter() {
 		children: "ÉPÊXE · Enchidos de Peixe · Setúbal"
 	});
 }
-var setubal_fontainhas_default = "/setubal-fish-chorizo-animations/assets/setubal-fontainhas-BeYXejnV.png";
+var setubal_fontainhas_default = "/assets/setubal-fontainhas-BeYXejnV.png";
+var favicon_32x32_default = "data:image/png;base64,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";
+var favicon_16x16_default = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACYUlEQVR4AXyQTUiUURSGnzNWmoMzZaCoQZvctcgkIspFWCANGkhBLTLKhSXSj0GLtP8olAiCIGiliSAYGpOopEE/pKHEKNliXLVSwhzd+JcjX+feOzrMxsM59z3nPee89/uuzx/I8fyBXC/TRo6XGcz1/JtFYt7s+DX3kTBRFBFE0blmWmMCzR2JiGhoIRrqGwKaYzoioiDsCAZpb2ul532YwsK9lhMRPA3URAMEFXApaiYTEaWFUOgksbl5+vv6qaqqspzrmEEVcqAColnCRUwhiAiRyBhHS0qouXKZb0NDltMD7eq0aDj3JVNDiA4oqsDkZJTBwY/MzMwy+GEAEdcTcahT1vUXLNpD9BQR7jQ28C4cprT0BHkFBYR7++h420VGRoaZQNVYtxQB0yivKKe7u5vmpiZGR0eJxea5p4J3G25TeeYc29LTsRfp6amKEzCMFruys7n/4CFFxcV8Hx5manqaf6urjI+PsT2YR01dPacv3EB8aTrt3Am4nPz8fG362F90QBkhHo/jeaJ3CXm797CmV/oDO0lL26p951ZAXM7ExE99/QhZWQF0S2+PE18Dk2/xllhcWqG36w3x1RXLoeZTUYWkt7a0cOjwEa7V32I2Nkc0GuV4WTnnq2sZ6O9h6vcvkOSW/QKMJT7jy+dPPHn8iFBFJdU1V9lXdJC6m42MDH/l9ctmM5kSGwJm3/wvKt7Z0c6psmNcr73EqxfPuHg2xPOnjSwvL5FiImwIYE23FT2FhcUFIj9G6Ops4+/MHwxnxA1qW6cwT5MqYJt62AFFu7WOoKXpaBhOa+P/AQAA//+y/nRjAAAABklEQVQDAMw+x49dsC1yAAAAAElFTkSuQmCC";
+var android_chrome_192x192_default = "/assets/android-chrome-192x192-Bv6ntEvc.png";
 function NotFoundComponent() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 		className: "flex min-h-screen items-center justify-center bg-background px-4",
@@ -565,8 +568,20 @@ var Route$4 = createRootRouteWithContext()({
 			},
 			{
 				rel: "icon",
-				href: "/favicon.ico",
-				type: "image/x-icon"
+				type: "image/png",
+				sizes: "32x32",
+				href: favicon_32x32_default
+			},
+			{
+				rel: "icon",
+				type: "image/png",
+				sizes: "16x16",
+				href: favicon_16x16_default
+			},
+			{
+				rel: "apple-touch-icon",
+				sizes: "192x192",
+				href: android_chrome_192x192_default
 			},
 			{
 				rel: "preconnect",
@@ -591,6 +606,7 @@ var Route$4 = createRootRouteWithContext()({
 function RootShell({ children }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("html", {
 		lang: "pt",
+		suppressHydrationWarning: true,
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("head", { children: [
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("script", { dangerouslySetInnerHTML: { __html: `(function(){var saved=null;try{saved=localStorage.getItem('epexe-theme')}catch(e){}var dark=saved==='dark'||(saved!=='light'&&window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.classList.toggle('dark',dark);document.documentElement.dataset.theme=dark?'dark':'light'})()` } }),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("script", {
@@ -665,7 +681,7 @@ function RootComponent() {
 		})] })
 	});
 }
-var $$splitComponentImporter$3 = () => import("./routes-CXZNBmcj.mjs");
+var $$splitComponentImporter$3 = () => import("./routes-Bxr35sUG.mjs");
 var Route$3 = createFileRoute("/")({
 	head: () => ({ meta: [
 		{ title: "ÉPÊXE — A nossa história · Chouriços de Peixe de Setúbal" },
@@ -692,7 +708,7 @@ var Route$3 = createFileRoute("/")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-var $$splitComponentImporter$2 = () => import("./contacto-Cz6F3xgg.mjs");
+var $$splitComponentImporter$2 = () => import("./contacto-CYjZ2NQz.mjs");
 var Route$2 = createFileRoute("/contacto")({
 	head: () => ({ meta: [
 		{ title: "Contacto e Encomendas — ÉPÊXE" },
@@ -719,7 +735,7 @@ var Route$2 = createFileRoute("/contacto")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("./pratos-D9B1LIiU.mjs");
+var $$splitComponentImporter$1 = () => import("./pratos-CQT97icB.mjs");
 var Route$1 = createFileRoute("/pratos")({
 	head: () => ({ meta: [
 		{ title: "Pratos e Receitas — ÉPÊXE" },
@@ -746,7 +762,7 @@ var Route$1 = createFileRoute("/pratos")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./produtos.index-CHTV6e_u.mjs");
+var $$splitComponentImporter = () => import("./produtos.index-DYXYvIz7.mjs");
 var Route = createFileRoute("/produtos/")({
 	head: () => ({ meta: [
 		{ title: "Produtos — ÉPÊXE Chouriços de Peixe" },

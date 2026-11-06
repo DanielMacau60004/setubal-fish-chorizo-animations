@@ -1,14 +1,14 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-CXZNBmcj.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-Bxr35sUG.js
 var import_jsx_runtime = require_jsx_runtime();
 var OWNERS = [{
 	name: "Tiago Barão",
 	role: "",
-	img: "/setubal-fish-chorizo-animations/assets/owner-1-C7l5CXfC.jpg"
+	img: "/assets/owner-1-B6tiEhmo.jpeg"
 }, {
 	name: "Sergio Mayorga",
 	role: "",
-	img: "/setubal-fish-chorizo-animations/assets/owner-2-DVfbpcBK.jpg"
+	img: "/assets/owner-2-D38dFFbS.jpeg"
 }];
 function Home() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", {

@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
-import owner1 from "@/assets/owner-1.jpg";
-import owner2 from "@/assets/owner-2.jpg";
+import owner1 from "@/assets/owner-1.jpeg";
+import owner2 from "@/assets/owner-2.jpeg";
 
 export const Route = createFileRoute("/")({
   head: () => ({

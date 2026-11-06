@@ -18,6 +18,9 @@ import { EpexeLoader } from "@/components/EpexeLoader";
 import { SiteHeader, SiteFooter } from "@/components/SiteHeader";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import setubalDocks from "@/assets/setubal-fontainhas.png";
+import favicon32 from "@/assets/favicon/favicon-32x32.png";
+import favicon16 from "@/assets/favicon/favicon-16x16.png";
+import appleTouchIcon from "@/assets/favicon/android-chrome-192x192.png";
 
 declare global {
   interface Window {
@@ -103,7 +106,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", type: "image/png", sizes: "32x32", href: favicon32 },
+      { rel: "icon", type: "image/png", sizes: "16x16", href: favicon16 },
+      { rel: "apple-touch-icon", sizes: "192x192", href: appleTouchIcon },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Bevan&display=swap" },
@@ -117,7 +122,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="pt">
+    <html lang="pt" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: `(function(){var saved=null;try{saved=localStorage.getItem('epexe-theme')}catch(e){}var dark=saved==='dark'||(saved!=='light'&&window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.classList.toggle('dark',dark);document.documentElement.dataset.theme=dark?'dark':'light'})()` }} />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-D10P4B4Y09" />

@@ -1,15 +1,15 @@
 import { i as stringType, n as numberType, r as objectType, t as arrayType } from "../_libs/zod.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/content-Dqx3DyH9.js
-var enchido_choco_default = "/setubal-fish-chorizo-animations/assets/enchido_choco-CwSqVskV.jpeg";
-var enchido_pescada_default = "/setubal-fish-chorizo-animations/assets/enchido_pescada-BGe4sjx4.jpeg";
-var enchido_pescada_1_default = "/setubal-fish-chorizo-animations/assets/enchido_pescada_1-CXgJtSP0.jpeg";
-var enchido_salmao_default = "/setubal-fish-chorizo-animations/assets/enchido_salmao-D8SbzbHu.jpeg";
-var prato_arroz_morcela_default = "/setubal-fish-chorizo-animations/assets/prato-arroz-morcela-DjCBc9JG.jpg";
-var prato_bolinhas_farinheira_default = "/setubal-fish-chorizo-animations/assets/prato-bolinhas-farinheira-Dq6X4leu.jpg";
-var prato_caldeirada_default = "/setubal-fish-chorizo-animations/assets/prato-caldeirada-BdVg8zKC.jpg";
-var prato_feijoada_default = "/setubal-fish-chorizo-animations/assets/prato-feijoada-NNo-vdaE.jpg";
-var prato_ovos_mexidos_default = "/setubal-fish-chorizo-animations/assets/prato-ovos-mexidos-CoYr64tL.jpg";
-var prato_pao_chourico_pescada_default = "/setubal-fish-chorizo-animations/assets/prato-pao-chourico-pescada-D_wWzmhA.jpg";
+//#region node_modules/.nitro/vite/services/ssr/assets/content-CxvbGJGj.js
+var enchido_choco_default = "/assets/enchido_choco-CwSqVskV.jpeg";
+var enchido_pescada_default = "/assets/enchido_pescada-BGe4sjx4.jpeg";
+var enchido_pescada_1_default = "/assets/enchido_pescada_1-CXgJtSP0.jpeg";
+var enchido_salmao_default = "/assets/enchido_salmao-D8SbzbHu.jpeg";
+var prato_arroz_morcela_default = "/assets/prato-arroz-morcela-DjCBc9JG.jpg";
+var prato_bolinhas_farinheira_default = "/assets/prato-bolinhas-farinheira-Dq6X4leu.jpg";
+var prato_caldeirada_default = "/assets/prato-caldeirada-BdVg8zKC.jpg";
+var prato_feijoada_default = "/assets/prato-feijoada-NNo-vdaE.jpg";
+var prato_ovos_mexidos_default = "/assets/prato-ovos-mexidos-CoYr64tL.jpg";
+var prato_pao_chourico_pescada_default = "/assets/prato-pao-chourico-pescada-D_wWzmhA.jpg";
 var choco_default = {
 	ordem: 2,
 	slug: "choco",

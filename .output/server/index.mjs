@@ -16,171 +16,192 @@ globalThis.__nitro_vite_envs__ = services;
 //#endregion
 //#region #nitro/virtual/public-assets-data
 var public_assets_data_default = {
+	"/.htaccess": {
+		"type": "text/plain; charset=utf-8",
+		"etag": "\"1d0-x3sqeF6ntPn4U0Igve/DMHqiZOM\"",
+		"mtime": "2026-11-06T22:59:50.394Z",
+		"size": 464,
+		"path": "../public/.htaccess"
+	},
 	"/favicon.ico": {
 		"type": "image/vnd.microsoft.icon",
 		"etag": "\"4f95-3RXc3p2mhEAs1WBwaIvE0Y0uu0Y\"",
-		"mtime": "2026-10-24T10:52:49.428Z",
+		"mtime": "2026-11-05T21:41:57.064Z",
 		"size": 20373,
 		"path": "../public/favicon.ico"
 	},
 	"/robots.txt": {
 		"type": "text/plain; charset=utf-8",
 		"etag": "\"ae-hLVBrSrDdpIw3Xl0dJPRkupPepQ\"",
-		"mtime": "2026-10-24T10:52:49.428Z",
+		"mtime": "2026-11-05T21:41:57.064Z",
 		"size": 174,
 		"path": "../public/robots.txt"
 	},
-	"/assets/DistilleryStrong-Dj6Otexo.ttf": {
-		"type": "font/ttf",
-		"etag": "\"32430-Xp412NuTl7VoRrLAzXMXhy0UmoY\"",
-		"mtime": "2026-10-24T20:59:27.099Z",
-		"size": 205872,
-		"path": "../public/assets/DistilleryStrong-Dj6Otexo.ttf"
+	"/assets/android-chrome-192x192-Bv6ntEvc.png": {
+		"type": "image/png",
+		"etag": "\"63f6-Idpr7hHJ+yk820QZvgEtp2jGMXY\"",
+		"mtime": "2026-11-06T23:09:31.287Z",
+		"size": 25590,
+		"path": "../public/assets/android-chrome-192x192-Bv6ntEvc.png"
 	},
-	"/assets/contacto-CwKIDNw1.js": {
+	"/assets/contacto-Bs-4AT2e.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"765-xLft/gRaisRJbKdHQdeekYuwPaU\"",
-		"mtime": "2026-10-24T20:59:27.090Z",
-		"size": 1893,
-		"path": "../public/assets/contacto-CwKIDNw1.js"
-	},
-	"/assets/enchido_pescada-BGe4sjx4.jpeg": {
-		"type": "image/jpeg",
-		"etag": "\"454de-ky5zkPfh6GrtXfqXVyNZO/28e58\"",
-		"mtime": "2026-10-24T20:59:27.104Z",
-		"size": 283870,
-		"path": "../public/assets/enchido_pescada-BGe4sjx4.jpeg"
+		"etag": "\"d53-Co1NGL2BOaQHTP7cw+/HOVXilWQ\"",
+		"mtime": "2026-11-06T23:09:31.278Z",
+		"size": 3411,
+		"path": "../public/assets/contacto-Bs-4AT2e.js"
 	},
 	"/assets/enchido_choco-CwSqVskV.jpeg": {
 		"type": "image/jpeg",
 		"etag": "\"4231e-mGj2bn4ANw2UfKVU/CVoh3mXpV0\"",
-		"mtime": "2026-10-24T20:59:27.101Z",
+		"mtime": "2026-11-06T23:09:31.288Z",
 		"size": 271134,
 		"path": "../public/assets/enchido_choco-CwSqVskV.jpeg"
+	},
+	"/assets/enchido_pescada-BGe4sjx4.jpeg": {
+		"type": "image/jpeg",
+		"etag": "\"454de-ky5zkPfh6GrtXfqXVyNZO/28e58\"",
+		"mtime": "2026-11-06T23:09:31.290Z",
+		"size": 283870,
+		"path": "../public/assets/enchido_pescada-BGe4sjx4.jpeg"
+	},
+	"/assets/DistilleryStrong-Dj6Otexo.ttf": {
+		"type": "font/ttf",
+		"etag": "\"32430-Xp412NuTl7VoRrLAzXMXhy0UmoY\"",
+		"mtime": "2026-11-06T23:09:31.286Z",
+		"size": 205872,
+		"path": "../public/assets/DistilleryStrong-Dj6Otexo.ttf"
+	},
+	"/assets/index-C1QD9Z19.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"7589e-QPXnySySu5z88RZDUinh30Gojco\"",
+		"mtime": "2026-11-06T23:09:31.278Z",
+		"size": 481438,
+		"path": "../public/assets/index-C1QD9Z19.js"
 	},
 	"/assets/enchido_pescada_1-CXgJtSP0.jpeg": {
 		"type": "image/jpeg",
 		"etag": "\"34741-baIAiisVdVzGRltrc2KklYMbt3A\"",
-		"mtime": "2026-10-24T20:59:27.107Z",
+		"mtime": "2026-11-06T23:09:31.291Z",
 		"size": 214849,
 		"path": "../public/assets/enchido_pescada_1-CXgJtSP0.jpeg"
-	},
-	"/assets/index-Cp3KfRxC.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"74c6d-IevDCdBjKQjurMg8wNBVAqxBehs\"",
-		"mtime": "2026-10-24T20:59:27.088Z",
-		"size": 478317,
-		"path": "../public/assets/index-Cp3KfRxC.js"
 	},
 	"/assets/enchido_salmao-D8SbzbHu.jpeg": {
 		"type": "image/jpeg",
 		"etag": "\"38590-v0jLqCYZ8YW4K8WiTjWDmOoU4MI\"",
-		"mtime": "2026-10-24T20:59:27.109Z",
+		"mtime": "2026-11-06T23:09:31.292Z",
 		"size": 230800,
 		"path": "../public/assets/enchido_salmao-D8SbzbHu.jpeg"
 	},
-	"/assets/owner-2-DVfbpcBK.jpg": {
+	"/assets/owner-1-B6tiEhmo.jpeg": {
 		"type": "image/jpeg",
-		"etag": "\"17b77-6t/4M051dLbVNmnHEqdUZMLmeDc\"",
-		"mtime": "2026-10-24T20:59:27.113Z",
-		"size": 97143,
-		"path": "../public/assets/owner-2-DVfbpcBK.jpg"
+		"etag": "\"4d89f-4ENS1xtyuQfZEqpBDKCTIbYkAfw\"",
+		"mtime": "2026-11-06T23:09:31.293Z",
+		"size": 317599,
+		"path": "../public/assets/owner-1-B6tiEhmo.jpeg"
 	},
-	"/assets/owner-1-C7l5CXfC.jpg": {
+	"/assets/owner-2-D38dFFbS.jpeg": {
 		"type": "image/jpeg",
-		"etag": "\"6059f-j4tWa0AFkvEA3YyTM3ksFl4+VO4\"",
-		"mtime": "2026-10-24T20:59:27.111Z",
-		"size": 394655,
-		"path": "../public/assets/owner-1-C7l5CXfC.jpg"
+		"etag": "\"4e2c6-np9Vn0z3pmrwihcgw0WqrP1LFXk\"",
+		"mtime": "2026-11-06T23:09:31.294Z",
+		"size": 320198,
+		"path": "../public/assets/owner-2-D38dFFbS.jpeg"
 	},
-	"/assets/produtos.index-3rXTQLui.js": {
+	"/assets/produtos.index-DKfDorGF.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"487-4BKifF/3KDvrs9np4ck8P4VVGBA\"",
-		"mtime": "2026-10-24T20:59:27.096Z",
+		"etag": "\"487-zPlFOI5wspVsU2K3incK2gv/MOs\"",
+		"mtime": "2026-11-06T23:09:31.285Z",
 		"size": 1159,
-		"path": "../public/assets/produtos.index-3rXTQLui.js"
+		"path": "../public/assets/produtos.index-DKfDorGF.js"
 	},
-	"/assets/pratos-DQm0eiTs.js": {
+	"/assets/pratos-CEYgd23T.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"38b-3wYSfVWXqqedrPOYYUh0hAYvlXw\"",
-		"mtime": "2026-10-24T20:59:27.091Z",
+		"etag": "\"38b-hf7Q7uPfyCay225Ms+wZlKnXlhs\"",
+		"mtime": "2026-11-06T23:09:31.279Z",
 		"size": 907,
-		"path": "../public/assets/pratos-DQm0eiTs.js"
+		"path": "../public/assets/pratos-CEYgd23T.js"
 	},
-	"/assets/produtos._slug-BJ22uNPM.js": {
+	"/assets/produtos._slug-CyAhJ7O1.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"593-WkiTlAz4WlFGKLW3UfxSUT4I2HU\"",
-		"mtime": "2026-10-24T20:59:27.092Z",
-		"size": 1427,
-		"path": "../public/assets/produtos._slug-BJ22uNPM.js"
-	},
-	"/assets/produtos._slug-v6O18GhX.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"18c-who+uZIdMAI/w97CJX+GcwP1MIk\"",
-		"mtime": "2026-10-24T20:59:27.095Z",
+		"etag": "\"18c-FrEYgu0hik82k7zqc2Cg3sWstbI\"",
+		"mtime": "2026-11-06T23:09:31.284Z",
 		"size": 396,
-		"path": "../public/assets/produtos._slug-v6O18GhX.js"
+		"path": "../public/assets/produtos._slug-CyAhJ7O1.js"
 	},
-	"/assets/routes-BEqi8taR.js": {
+	"/assets/produtos._slug-DG_dzBok.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"8d2-ZRoHekkw8JVguc+qZFr0qOF8f+Q\"",
-		"mtime": "2026-10-24T20:59:27.098Z",
-		"size": 2258,
-		"path": "../public/assets/routes-BEqi8taR.js"
+		"etag": "\"593-ynXkvUtNec6gtLQ1YqNWrDkDUs8\"",
+		"mtime": "2026-11-06T23:09:31.284Z",
+		"size": 1427,
+		"path": "../public/assets/produtos._slug-DG_dzBok.js"
 	},
-	"/assets/styles-DUHuQ25H.css": {
+	"/assets/routes-OoUIKiJA.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"894-SdSm2Qb3elGmzznp8FO0YJF2uE8\"",
+		"mtime": "2026-11-06T23:09:31.286Z",
+		"size": 2196,
+		"path": "../public/assets/routes-OoUIKiJA.js"
+	},
+	"/assets/styles-BzBQ7PYF.css": {
 		"type": "text/css; charset=utf-8",
-		"etag": "\"14d56-7sz2HVIlR/G9G1XkhsCd8q5P1PU\"",
-		"mtime": "2026-10-24T20:59:27.134Z",
-		"size": 85334,
-		"path": "../public/assets/styles-DUHuQ25H.css"
+		"etag": "\"1538e-cK55qqQx0sdUqAYeR6YSa+Yavjg\"",
+		"mtime": "2026-11-06T23:09:31.305Z",
+		"size": 86926,
+		"path": "../public/assets/styles-BzBQ7PYF.css"
+	},
+	"/api/contact.php": {
+		"type": "application/x-httpd-php",
+		"etag": "\"a2a-sBdVHnrRfuYIDYIlmtzWyQe9xr0\"",
+		"mtime": "2026-11-06T23:08:07.628Z",
+		"size": 2602,
+		"path": "../public/api/contact.php"
 	},
 	"/assets/prato-bolinhas-farinheira-Dq6X4leu.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"e391b-R3t1FcJk8mcsKWPZQtH+7i7oxFI\"",
-		"mtime": "2026-10-24T20:59:27.119Z",
+		"mtime": "2026-11-06T23:09:31.296Z",
 		"size": 932123,
 		"path": "../public/assets/prato-bolinhas-farinheira-Dq6X4leu.jpg"
 	},
 	"/assets/prato-arroz-morcela-DjCBc9JG.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"102683-4N9JKoLF9MTlsXsQVeKvcQ2jnYo\"",
-		"mtime": "2026-10-24T20:59:27.115Z",
+		"mtime": "2026-11-06T23:09:31.294Z",
 		"size": 1058435,
 		"path": "../public/assets/prato-arroz-morcela-DjCBc9JG.jpg"
+	},
+	"/assets/prato-ovos-mexidos-CoYr64tL.jpg": {
+		"type": "image/jpeg",
+		"etag": "\"113768-SZ4Sy1xRf22m8z9brjmMr+QOXYQ\"",
+		"mtime": "2026-11-06T23:09:31.300Z",
+		"size": 1128296,
+		"path": "../public/assets/prato-ovos-mexidos-CoYr64tL.jpg"
 	},
 	"/assets/prato-feijoada-NNo-vdaE.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"10f672-oIwIgwoTqRKpUuEZn8NekrBi5wY\"",
-		"mtime": "2026-10-24T20:59:27.124Z",
+		"mtime": "2026-11-06T23:09:31.299Z",
 		"size": 1111666,
 		"path": "../public/assets/prato-feijoada-NNo-vdaE.jpg"
 	},
 	"/assets/prato-caldeirada-BdVg8zKC.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"131310-bp8Sq3pg427ikzo7sQMtLHoZgx0\"",
-		"mtime": "2026-10-24T20:59:27.122Z",
+		"mtime": "2026-11-06T23:09:31.298Z",
 		"size": 1250064,
 		"path": "../public/assets/prato-caldeirada-BdVg8zKC.jpg"
-	},
-	"/assets/prato-ovos-mexidos-CoYr64tL.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"113768-SZ4Sy1xRf22m8z9brjmMr+QOXYQ\"",
-		"mtime": "2026-10-24T20:59:27.127Z",
-		"size": 1128296,
-		"path": "../public/assets/prato-ovos-mexidos-CoYr64tL.jpg"
 	},
 	"/assets/prato-pao-chourico-pescada-D_wWzmhA.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"115bf7-O7bVVm50kJCz0qDn68yo+GI1fZg\"",
-		"mtime": "2026-10-24T20:59:27.129Z",
+		"mtime": "2026-11-06T23:09:31.301Z",
 		"size": 1137655,
 		"path": "../public/assets/prato-pao-chourico-pescada-D_wWzmhA.jpg"
 	},
 	"/assets/setubal-fontainhas-BeYXejnV.png": {
 		"type": "image/png",
 		"etag": "\"364975-JEbemIxDP3sFAaL4rkDBdy0PB6I\"",
-		"mtime": "2026-10-24T20:59:27.132Z",
+		"mtime": "2026-11-06T23:09:31.305Z",
 		"size": 3557749,
 		"path": "../public/assets/setubal-fontainhas-BeYXejnV.png"
 	}
@@ -220,11 +241,11 @@ var findRouteRules = /* @__PURE__ */ (() => {
 		return r;
 	};
 })();
-var _lazy_IOdUa2 = defineLazyEventHandler(() => import("./_chunks/ssr-renderer.mjs"));
+var _lazy_D89BoE = defineLazyEventHandler(() => import("./_chunks/ssr-renderer.mjs"));
 var findRoute = /* @__PURE__ */ (() => {
 	const data = {
 		route: "/**",
-		handler: _lazy_IOdUa2
+		handler: _lazy_D89BoE
 	};
 	return ((_m, p) => {
 		return {
